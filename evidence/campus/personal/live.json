@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "profile route requires current school account and never returns contact or identity secrets",
+      "status": "PASS"
+    },
+    {
+      "name": "single existing profile authority with field privacy and server-derived organization roles",
+      "status": "PASS"
+    },
+    {
+      "name": "work lifecycle, exact retry, CAS races and owner-only mutation preserve history",
+      "status": "PASS"
+    },
+    {
+      "name": "community badge issuance is school-owner only, one effect per retry, recipient controls visibility, revocation persists",
+      "status": "PASS"
+    },
+    {
+      "name": "organization removal immediately removes prior school-visible affiliation",
+      "status": "PASS"
+    },
+    {
+      "name": "private profile text is absent from school catalog and another member projection",
+      "status": "PASS"
+    }
+  ],
+  "durationMs": 1558,
+  "school": "north",
+  "workId": "a2570171-c642-45d9-bc00-7886648f7131",
+  "badgeId": "f057f835-f156-4838-870a-5daa00a92f16"
+}

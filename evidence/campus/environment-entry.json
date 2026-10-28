@@ -1,0 +1,13 @@
+{
+  "scope": "Read-only real isolated HTTP/PostgreSQL/Nakama verification after integration restart",
+  "checks": [
+    {
+      "name": "anonymous real space resolves school and public places without member fields",
+      "status": "PASS"
+    },
+    {
+      "name": "legacy HTTP and native campus leaderboards refuse bypass while current authorized org-period ranking works",
+      "status": "PASS"
+    }
+  ]
+}

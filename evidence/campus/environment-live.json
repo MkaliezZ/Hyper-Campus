@@ -1,0 +1,29 @@
+{
+  "scope": "Isolated PostgreSQL, Keycloak, real browser-facing HTTP; fictional data, not actual school or multi-device acceptance",
+  "run": "84b442f6",
+  "org": "environment-84b442f6",
+  "placeId": "2e336af9-235a-4d30-9f57-74b3c0038776",
+  "checks": [
+    {
+      "name": "real public anchor binding, scoped candidates, no cross-school or unassigned-org takeover",
+      "status": "PASS"
+    },
+    {
+      "name": "delegated drafts require current moderator approval; exact ten retries and changed-input conflicts",
+      "status": "PASS"
+    },
+    {
+      "name": "visitor private feedback, scoped handling, CAS race and exact claim retry",
+      "status": "PASS"
+    },
+    {
+      "name": "current organization revoke rejects old receipts, hides job label and allows responsible takeover",
+      "status": "PASS"
+    },
+    {
+      "name": "scoped assignment review and withdrawal preserve private history and campus native boards refuse direct reads",
+      "status": "PASS"
+    }
+  ],
+  "elapsedMs": 2241
+}

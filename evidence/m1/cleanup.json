@@ -1,0 +1,11 @@
+{
+  "oldDeliveriesUntouched": true,
+  "status": "AUTOMATIC_APPROVAL_REJECTED",
+  "excludedFromZip": true,
+  "reason": "blocked by policy",
+  "manualTargets": [
+    "F:\\Codex Workspace\\2026-09-30\\new-chat\\work\\hyper-dimension-base-m1\\public\\vendor\\vendor",
+    "F:\\Codex Workspace\\2026-09-30\\new-chat\\work\\hyper-dimension-base-m1\\qa-m1-init.sh"
+  ],
+  "redundantVendorBytes": 2329538
+}

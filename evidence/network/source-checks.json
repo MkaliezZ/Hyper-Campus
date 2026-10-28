@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "at": "2026-10-24T09:24:49.285Z",
+  "node": "24.19.0",
+  "unitTests": {
+    "total": 44,
+    "passed": 44,
+    "failed": 0
+  },
+  "doctor": true,
+  "build": true,
+  "verify": true,
+  "diffCheck": true,
+  "scope": "Commands run from the integrations checkout on Windows; live services used isolated Ubuntu Docker with Node 24.22.1."
+}

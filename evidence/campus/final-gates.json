@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-23T18:05:06.023Z",
+  "checks": [
+    {
+      "name": "doctor",
+      "status": "PASS",
+      "exitCode": 0,
+      "stdout": "{\n  \"node\": \"v24.19.0\",\n  \"supportedNode\": true,\n  \"vendor\": true,\n  \"examples\": true,\n  \"writeableRoot\": true,\n  \"platform\": \"win32\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "build",
+      "status": "PASS",
+      "exitCode": 0,
+      "stdout": "{\"sceneId\":\"north-hall\",\"geometryHash\":\"e3239989935dbd1bd3b51b5036ce0f0624cf63ed480b7f29ef37a8fbd21b6a28\",\"bytes\":17280}\n{\"sceneId\":\"south-hall\",\"geometryHash\":\"41526a6f8954de8a5056c926211ee6e475ce909c59426c1d7bbe717ea4252ddc\",\"bytes\":17272}\n",
+      "stderr": ""
+    },
+    {
+      "name": "test",
+      "status": "PASS",
+      "exitCode": 0,
+      "stdout": "✔ Official A2A 1.0 SDK discovery/send/get/list, duplicate and restart, cross-space isolation (413.5293ms)\n✔ Cancel and interrupted-task explicit resume; custom trusted capability checks its scope (222.1015ms)\n✔ avatar extension preserves the published v1 catalog, every part and four exact model bytes (196.4014ms)\n✔ v2 has all planned original parts, licenses, immutable hashes and a shared humanoid skeleton (103.7971ms)\n✔ each v2 part and varied full models rebuild deterministically within the published budgets (424.4503ms)\n✔ new geometry is distinct, and every declared incompatibility fails explicitly (25.7962ms)\n✔ catalog upgrades require current explicit proof; v1 remains default, downgrade and unknown versions fail (0.7922ms)\n✔ Campus manifest includes executable modules, admin sources/notices and production dependencies, excluding private state (1495.3052ms)\n✔ New-campus initializer and archive writer preserve existing configuration and sealed files (145.5307ms)\n✔ community anchor accepts only current-school public geometry with stable IDs (2.8583ms)\n✔ an actual GLB/navigation rebuild retains stored scene/entity anchors while deleted or restricted rooms fail closed (44.9588ms)\n✔ Versioned packages preserve stable identities and reject prototype names (2.4425ms)\n✔ One geometry produces repeatable GLB and routes around holes through stairs (38.9085ms)\n✔ Durable receipts survive restart, conflicts do not repeat effects, single writer enforced (42.5132ms)\n✔ Reception never sends unpublished records to an injected model; no fake live mode (3.1876ms)\n✔ Hermes transport isolates environment, handles UTF-8 and fails closed on tools, crash, timeout and cancel (1021.3039ms)\n✔ Published media and artwork load from a package; private exhibits and traversal stay blocked (204.2367ms)\n✔ reviewed partner facts are dynamically scoped; withdrawal clears prior source context (4.9008ms)\n✔ source withdrawal while model is generating blocks stale output (0.7884ms)\n✔ PGlite/pgvector storage persists, scopes schools, replaces atomically and excludes unpublished input (2868.4456ms)\n✔ Chunk metadata and source gates preserve published-only authority, including withdrawn history (1.6295ms)\n✔ M2: all 24 original part files match catalog integrity, license and shared skeleton (113.8632ms)\n✔ M2: presets build deterministic VRM 1 avatars with 3 animations within the published budget (60.4949ms)\n✔ M2: part/shape/color changes affect saved hash; input key order and color case canonicalize (40.0099ms)\n✔ M2: missing/foreign/versioned/incompatible parts and remote model injection fail closed (0.8734ms)\n✔ M2: legacy migration creates independent valid recipe without modifying the legacy object (0.429ms)\n✔ module flags preserve reads and reject all disabled business mutations including legacy routes (2.7928ms)\n✔ base2 closure includes chat consent and avatar; invalid/uninstalled switches fail configuration (0.9312ms)\n✔ historical M0/M1 configurations without campus flags retain their original routes (0.5109ms)\n✔ four original example templates have explicit provenance, responsibilities and bounded data-only fields (3.8142ms)\n✔ version diff explains actual changed fields without mutating previous versions (0.9129ms)\n✔ Two independent Base processes exchange A2A; acknowledged effect survives process death and lost response replay (1006.695ms)\n✔ General reception calls a model without retrieval hits; source authority remains explicit (4.7484ms)\n✔ A2A history is bounded and isolated by owner, Agent, space and context; replay is not another call (406.0685ms)\n✔ source failure preserves later services and schools while reporting failed health (3.1029ms)\nℹ tests 35\nℹ suites 0\nℹ pass 35\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 3442.0012\n",
+      "stderr": ""
+    },
+    {
+      "name": "verify",
+      "status": "PASS",
+      "exitCode": 0,
+      "stdout": "{\n  \"at\": \"2026-10-23T18:05:05.953Z\",\n  \"kind\": \"automated-spatial-contract\",\n  \"spaces\": [\n    {\n      \"spaceId\": \"north\",\n      \"scenes\": [\n        {\n          \"sceneId\": \"north-hall\",\n          \"geometryHash\": \"e3239989935dbd1bd3b51b5036ce0f0624cf63ed480b7f29ef37a8fbd21b6a28\",\n          \"nodes\": 3411,\n          \"rooms\": [\n            {\n              \"entityId\": \"north-hall-gallery\",\n              \"levelId\": \"L1\",\n              \"distance\": 19.2\n            },\n            {\n              \"entityId\": \"north-hall-club\",\n              \"levelId\": \"L1\",\n              \"distance\": 26.4\n            },\n            {\n              \"entityId\": \"north-hall-studio\",\n              \"levelId\": \"L2\",\n              \"distance\": 24.4\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"spaceId\": \"south\",\n      \"scenes\": [\n        {\n          \"sceneId\": \"south-hall\",\n          \"geometryHash\": \"41526a6f8954de8a5056c926211ee6e475ce909c59426c1d7bbe717ea4252ddc\",\n          \"nodes\": 4711,\n          \"rooms\": [\n            {\n              \"entityId\": \"south-hall-gallery\",\n              \"levelId\": \"L1\",\n              \"distance\": 19.2\n            },\n            {\n              \"entityId\": \"south-hall-club\",\n              \"levelId\": \"L1\",\n              \"distance\": 28.4\n            },\n            {\n              \"entityId\": \"south-hall-studio\",\n              \"levelId\": \"L2\",\n              \"distance\": 26.4\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}\n",
+      "stderr": ""
+    }
+  ]
+}

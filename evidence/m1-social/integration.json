@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Nakama-backed private message, immutable retry, non-participant and school isolation",
+      "status": "PASS"
+    },
+    {
+      "name": "edit CAS, read cursor, report privilege audit, block and unblock",
+      "status": "PASS"
+    },
+    {
+      "name": "live SSE delivery, cursor reconnect, same open stream loses access on revocation",
+      "status": "PASS"
+    },
+    {
+      "name": "school room and organization room are independent; no arbitrary native storage access",
+      "status": "PASS"
+    },
+    {
+      "name": "NodeBB native edit review preserves pid, protects draft and gives zero extra contribution",
+      "status": "PASS"
+    }
+  ],
+  "durationMs": 6391,
+  "environment": "isolated WSL Ubuntu services; synthetic accounts; not human acceptance"
+}

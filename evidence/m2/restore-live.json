@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "stableUserIds": true,
+  "exactRecipeAndModel": true,
+  "inventoryAndCollections": true,
+  "privateCollectionAcl": true,
+  "oldToolReceiptNoSecondConsumption": true,
+  "retainedM1NativeMessageAndAcl": true,
+  "newWritesOnlyInClone": true,
+  "sourceUnchanged": true
+}

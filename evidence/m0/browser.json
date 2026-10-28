@@ -1,0 +1,27 @@
+{
+  "kind": "automated-isolated-browser",
+  "humanTest": false,
+  "physicalMultiDevice": false,
+  "codePkceLogin": true,
+  "editorSave": true,
+  "modelHash": "f5e76c72843263e8781e65dd3a266f0cae1d2f1b0b57ea553456d5c7f918cf3a",
+  "recipe": {
+    "top": "shirt",
+    "body": "standard",
+    "hair": "bob",
+    "skin": "warm",
+    "shoes": "sneakers",
+    "bottom": "skirt",
+    "schema": "hyper-dimension.avatar/v1",
+    "catalog": "m0-original-1",
+    "glasses": "round",
+    "palette": "ochre",
+    "accessory": "satchel"
+  },
+  "existingSceneRenderer": true,
+  "independentContextsRestore": true,
+  "otherSchoolSeparate": true,
+  "forumModeration": true,
+  "logout": true,
+  "pageErrors": []
+}

@@ -1,0 +1,24 @@
+{
+  "status": "M1_SOCIAL_SCOPE_PASSED",
+  "extensionVersion": "0.3.0",
+  "baseVersion": "0.2.1",
+  "coreTests": 13,
+  "communicationGroups": 5,
+  "governanceGroups": 4,
+  "browserGroups": 3,
+  "foundationGroups": 8,
+  "backup": {
+    "databases": 6,
+    "tables": 192,
+    "rows": 4924,
+    "independentRestorePassed": true
+  },
+  "productionReady": false,
+  "environment": "WSL Ubuntu and owned fresh Chrome contexts; synthetic fixtures",
+  "protectedDeliveriesUnchanged": true,
+  "remaining": [
+    "target Ubuntu deployment with TLS/domain and non-root service operations",
+    "real SMTP delivery, school policy and capacity acceptance",
+    "M2-M5 remain outside this scope"
+  ]
+}

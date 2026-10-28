@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "checkedAt": "2026-10-23T18:14:20.096Z",
+  "checks": [
+    {
+      "name": "all 3612 manifest files verified after fresh extraction",
+      "status": "PASS"
+    },
+    {
+      "name": "fresh new-school scaffold builds GLB and verifies routes without installing production Node dependencies",
+      "status": "PASS"
+    },
+    {
+      "name": "extracted source starts actual seven-database restored Ubuntu stack and passes native isolation READY gates",
+      "status": "PASS"
+    },
+    {
+      "name": "formal login, saved exact model, inventory, collections and original assets pass extracted M2 smoke",
+      "status": "PASS"
+    },
+    {
+      "name": "all campus extensions registered; five actual current-owner APIs readable and other school denied",
+      "status": "PASS"
+    },
+    {
+      "name": "anonymous public place mapping excludes manager identity",
+      "status": "PASS"
+    },
+    {
+      "name": "actual Chrome login, extracted environment page and rendered geometry pass with no page errors",
+      "status": "PASS"
+    }
+  ],
+  "scope": "main developer ran extracted package; independent Agent without development context remains NOT_TESTED; one host automation with fictional school data"
+}

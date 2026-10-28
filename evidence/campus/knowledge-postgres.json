@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "versions": {
+    "postgres": "18.6 (Ubuntu 18.6-0ubuntu0.26.04.1)",
+    "pgvector": "0.8.1"
+  },
+  "checks": [
+    {
+      "name": "native PostgreSQL vector retrieval enforces school scope and pre-embedding publication",
+      "status": "PASS"
+    },
+    {
+      "name": "failed replacement rolls back the previous reviewed snapshot",
+      "status": "PASS"
+    },
+    {
+      "name": "new client session reads the same persisted source identity",
+      "status": "PASS"
+    },
+    {
+      "name": "native pg_dump/pg_restore preserves vectors; withdrawal affects only source school and never restored clone",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Dedicated new PostgreSQL databases on WSL Ubuntu; explicit deterministic embedding fixture; no live model or target production server claim"
+}

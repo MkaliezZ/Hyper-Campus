@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "corrupt-bytes rejected before target directory or database access",
+      "status": "PASS"
+    },
+    {
+      "name": "unsupported-format rejected before target directory or database access",
+      "status": "PASS"
+    }
+  ],
+  "scope": "new synthetic corrupt backup copies only; original backup and all source databases retained; no target/admin connection supplied"
+}

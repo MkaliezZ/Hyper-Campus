@@ -1,0 +1,27 @@
+{
+  "scope": "Automated Chrome on one Windows host against isolated real services; not human or physical multi-device acceptance",
+  "run": "84b442f6",
+  "checks": [
+    {
+      "name": "school owner chooses a current delegated member and explicitly publishes only the duty label",
+      "status": "PASS"
+    },
+    {
+      "name": "delegated manager drafts and submits while administrator alone can approve publication",
+      "status": "PASS"
+    },
+    {
+      "name": "visitor submits private feedback and current moderator follows claim-processing-resolution flow",
+      "status": "PASS"
+    },
+    {
+      "name": "current role revocation removes manager controls and public duty without deleting visitor history",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile visitor retains readable controls without horizontal overflow",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

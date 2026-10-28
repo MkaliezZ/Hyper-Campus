@@ -1,0 +1,23 @@
+{
+  "status": "FAIL",
+  "startedAt": "2026-10-23T17:49:16.166Z",
+  "completedAt": "2026-10-23T17:49:54.971Z",
+  "durationMs": 38804,
+  "spaces": [
+    {
+      "spaceId": "north",
+      "sceneId": "north-hall",
+      "geometryHash": "e3239989935dbd1bd3b51b5036ce0f0624cf63ed480b7f29ef37a8fbd21b6a28",
+      "modelSha256": "adc8c015b0b3cc3cf02460d5e394b59a6f75e45ad89e57448190cbc5a2c82b5f",
+      "modelBytes": 17280,
+      "levels": 2,
+      "artworkCount": 1,
+      "publicAssets": 1,
+      "publishedExhibits": 1,
+      "drawCalls": 129,
+      "rooms": []
+    }
+  ],
+  "errors": [],
+  "error": "page.waitForFunction: Timeout 35000ms exceeded."
+}

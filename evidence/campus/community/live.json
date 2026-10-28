@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "current school and organization scopes, owner home CAS, native scoped categories",
+      "status": "PASS"
+    },
+    {
+      "name": "native private draft, strict place validation and controlled attachment binding",
+      "status": "PASS"
+    },
+    {
+      "name": "native submission, fault recovery, review reason and one accepted contribution",
+      "status": "PASS"
+    },
+    {
+      "name": "category and full body search, pagination, same source map projection and native edit review",
+      "status": "PASS"
+    },
+    {
+      "name": "report hide appeal restore use scoped reasons, revoke attachment access and reverse the same ledger",
+      "status": "PASS"
+    },
+    {
+      "name": "organization moderator native publication never leaks into school or another organization",
+      "status": "PASS"
+    }
+  ],
+  "run": "bf19db20",
+  "sourceId": "d2efee841ca3ca8a297c4aed2f308fd3",
+  "orgPath": "/community/schools/north/organizations/community-bf19db20",
+  "environment": "isolated Ubuntu services and fictitious accounts"
+}

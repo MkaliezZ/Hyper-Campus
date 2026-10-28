@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "at": "2026-10-24T12:56:59.410Z",
+  "sevenDatabasesRestored": true,
+  "newNamespace": "hdziprestoremvmel1d7",
+  "compared": [
+    {
+      "table": "hd_runtime_state",
+      "rows": 1,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_avatars",
+      "rows": 1,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_m2_avatars",
+      "rows": 1,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_m2_inventory",
+      "rows": 1,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_m2_items",
+      "rows": 6,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_m2_collections",
+      "rows": 6,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_network_profiles",
+      "rows": 2,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_mentor_slots",
+      "rows": 3,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_mentor_bookings",
+      "rows": 3,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_career_opportunities",
+      "rows": 1,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_career_bookmarks",
+      "rows": 0,
+      "sameRowHash": true
+    }
+  ],
+  "activeRealHermesSessionExportedAfterRestore": true,
+  "crossOwnerDenied": true,
+  "sourceWritersStopped": true,
+  "sourcePreserved": true,
+  "limits": "Fictitious data on local Ubuntu; full storage restore and session manager verified, not a new production server cutover"
+}

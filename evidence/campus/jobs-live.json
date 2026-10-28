@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "engine": "pg-boss 12.38.0",
+  "schema": "qa_jobs_74307b7e903c4d4e89e3ea1b62fad7dd",
+  "checks": [
+    {
+      "name": "business rollback also rolls back actual pg-boss enqueue",
+      "status": "PASS"
+    },
+    {
+      "name": "ten exact transaction enqueues retain one stable job",
+      "status": "PASS"
+    },
+    {
+      "name": "new queue instance recovers retry without duplicate effect",
+      "status": "PASS"
+    },
+    {
+      "name": "future job remains scheduled and payload is minimal",
+      "status": "PASS"
+    }
+  ],
+  "scope": "actual PostgreSQL isolated fixture; no real reminders sent"
+}

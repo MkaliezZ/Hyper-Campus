@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-23T11:41:15.615Z",
+  "kind": "isolated-browser-automation",
+  "spaceId": "north",
+  "geometry": {
+    "scene": "e3239989935dbd1bd3b51b5036ce0f0624cf63ed480b7f29ef37a8fbd21b6a28",
+    "model": "e3239989935dbd1bd3b51b5036ce0f0624cf63ed480b7f29ef37a8fbd21b6a28",
+    "drawCalls": 89
+  },
+  "checks": [
+    "WebGL GLB rendered",
+    "model/navigation hash equal",
+    "walk from forecourt into building",
+    "enter ground-floor room",
+    "stairs to upper room",
+    "published reception citations",
+    "refresh retains server position",
+    "return outside entrance",
+    "no HTTP or page errors"
+  ],
+  "notValidated": [
+    "human acceptance",
+    "physical Windows and macOS devices",
+    "architectural construction accuracy"
+  ]
+}

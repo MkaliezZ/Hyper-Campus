@@ -1,0 +1,13 @@
+{
+  "kind": "isolated real PostgreSQL migration and original JSON preservation",
+  "results": [
+    {
+      "name": "failed additive migration rolls back all schema changes and preserves original table rows",
+      "status": "PASS"
+    },
+    {
+      "name": "explicit backed-up JSON to PG import preserves IDs, receipts and source SHA; PG survives reopen and rejects a second writer",
+      "status": "PASS"
+    }
+  ]
+}

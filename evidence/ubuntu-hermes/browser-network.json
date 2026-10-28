@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-24T12:16:49.635Z",
+  "checks": [
+    {
+      "name": "Browser: opt-in profile submit, administrative review, directory and responsive layout",
+      "status": "PASS"
+    },
+    {
+      "name": "Browser: mentor opens a slot; student requests; mentor confirms; administrator sees metadata without private question",
+      "status": "PASS"
+    },
+    {
+      "name": "Browser: administrator reviews opportunity metadata and the published card opens its native forum body",
+      "status": "PASS"
+    },
+    {
+      "name": "Browser: scene room entry opens the same scoped network page; reception export, reload and delete work",
+      "status": "PASS"
+    },
+    {
+      "name": "Browser: school owner configures retention; ordinary member cannot read policy diagnostics",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "complete": true,
+  "scope": "Automated browser contexts on one Windows host against isolated Ubuntu Docker services. No real people or physical multi-device acceptance."
+}

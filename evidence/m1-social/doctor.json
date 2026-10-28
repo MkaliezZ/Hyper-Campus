@@ -1,0 +1,8 @@
+{
+  "node": "v24.22.1",
+  "supportedNode": true,
+  "vendor": true,
+  "examples": true,
+  "writeableRoot": true,
+  "platform": "linux"
+}

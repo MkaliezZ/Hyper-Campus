@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "fixtureOnly": true,
+  "attempts": 2,
+  "retries": 1,
+  "checks": [
+    "real pg-boss retry after handler failure",
+    "same queued identity",
+    "current approved pgvector import is idempotent",
+    "no source body in queue payload"
+  ]
+}

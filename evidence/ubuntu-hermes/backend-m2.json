@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "M2 school/account isolation and 24 original asset endpoints",
+      "status": "PASS"
+    },
+    {
+      "name": "avatar save, explicit legacy migration, idempotency, CAS race and old data preservation",
+      "status": "PASS"
+    },
+    {
+      "name": "welcome kit one-time issuance, concurrent CAS, audited owner grant and forged item rejection",
+      "status": "PASS"
+    },
+    {
+      "name": "server-arrival gate rejects remote use, then accepts real nav arrival without geometry mutation",
+      "status": "PASS"
+    },
+    {
+      "name": "stamp uniqueness, paper consumption exactly once, escaped private postcard, private note no forum publication",
+      "status": "PASS"
+    },
+    {
+      "name": "map bookmark, local wave rate limit and profile field visibility",
+      "status": "PASS"
+    }
+  ],
+  "durationMs": 7093,
+  "avatarHash": "9aa795d5a79df249c29c5419fc469815f1de42f0888aaf0005506edadf84829e",
+  "school": "north",
+  "geometryHash": "e3239989935dbd1bd3b51b5036ce0f0624cf63ed480b7f29ef37a8fbd21b6a28",
+  "postcardId": "e0925430-b68d-4fe6-9fee-324ac9722cfe",
+  "noteId": "285ee18c-ad11-413c-acea-8380d1d18fbd"
+}

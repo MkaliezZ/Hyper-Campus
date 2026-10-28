@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "framework": "react-admin 5.15.5 open source",
+  "checks": [
+    {
+      "name": "actual React-admin adapter reads and saves server CAS membership in isolated fixture org",
+      "status": "PASS"
+    },
+    {
+      "name": "read-only audit contains actual membership operation",
+      "status": "PASS"
+    },
+    {
+      "name": "ordinary member cannot enter school management or bypass through API",
+      "status": "PASS"
+    }
+  ],
+  "automated": true,
+  "physicalDevices": false
+}

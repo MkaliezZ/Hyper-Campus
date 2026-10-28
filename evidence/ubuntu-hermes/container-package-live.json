@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "at": "2026-10-24T12:56:48.159Z",
+  "archiveVersion": "0.8.2",
+  "testedSourceHashes": [
+    "src/server.mjs",
+    "src/platform/index.mjs",
+    "src/a2a/gateway.mjs",
+    "src/reception/hermes.mjs",
+    "src/reception/hermes_bridge.py",
+    "src/reception/sessions.mjs",
+    "public/app.js",
+    "public/reception-sessions.js",
+    "public/network.js",
+    "public/admin/app.js",
+    "deploy/entry.mjs",
+    "deploy/reception-env.mjs",
+    "database/campus-network-001.sql"
+  ],
+  "runtime": {
+    "python": "3.13.17",
+    "hermes": "0.19.1",
+    "openai": "2.24.0"
+  },
+  "formalOidcAndSchoolAcl": "PASS",
+  "fourBaseFrontendAssetsAndBackendRoutes": "PASS",
+  "actualHermesHealth": "PASS",
+  "serverIdentity": "Keycloak, no injected provider or simulated auth",
+  "deletedCurrentPgSnapshotAndHermesFiles": "PASS"
+}

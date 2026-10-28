@@ -1,0 +1,1 @@
+{"at":"2026-10-23T14:27:29.714Z","status":"healthy","counters":{"pending_messages":0,"pending_outbox":0,"repeatedly_failed_outbox":0,"open_reports":0,"expired_bodies":0},"schools":[{"schoolId":"north","stale":false,"syncHealthy":true,"blocked":0},{"schoolId":"south","stale":false,"syncHealthy":true,"blocked":0}]}

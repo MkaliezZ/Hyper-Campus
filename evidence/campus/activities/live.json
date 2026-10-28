@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "school/account scope, managed draft-review-publication and unknown fields",
+      "status": "PASS"
+    },
+    {
+      "name": "concurrent capacity and FIFO promotion, stable request replay, no double seating",
+      "status": "PASS"
+    },
+    {
+      "name": "durable due reminder, deduplicated inbox and cancelled former seat reminder",
+      "status": "PASS"
+    },
+    {
+      "name": "evidence needs designated non-self verifier and one acceptance event, revocation retains source",
+      "status": "PASS"
+    },
+    {
+      "name": "volunteer task choice, rejected evidence resubmission, immutable trace and cancellation reversal",
+      "status": "PASS"
+    },
+    {
+      "name": "configured contribution failure rolls back verification, source event and receipt together",
+      "status": "PASS"
+    }
+  ],
+  "durationMs": 4163,
+  "scope": "Isolated fictitious accounts/activities. Automated database and HTTP checks, not actual attendance, volunteer service, official credits or a target-server acceptance."
+}

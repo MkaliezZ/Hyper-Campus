@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "north controlled before/after original artwork comparison and unchanged complete public routes",
+      "status": "PASS"
+    },
+    {
+      "name": "south controlled before/after original artwork comparison and unchanged complete public routes",
+      "status": "PASS"
+    }
+  ],
+  "coverage": [
+    {
+      "spaceId": "north",
+      "entityId": "north-hall-gallery",
+      "region": "项目展厅",
+      "model": "original reusable display furniture, shared materials and room label",
+      "publishedArtwork": [
+        "project-poster"
+      ]
+    },
+    {
+      "spaceId": "north",
+      "entityId": "north-hall-club",
+      "region": "社团空间",
+      "model": "original reusable display furniture, shared materials and room label",
+      "publishedArtwork": []
+    },
+    {
+      "spaceId": "north",
+      "entityId": "north-hall-studio",
+      "region": "共享工作室",
+      "model": "original reusable display furniture, shared materials and room label",
+      "publishedArtwork": []
+    },
+    {
+      "spaceId": "north",
+      "region": "entrance and reception",
+      "model": "arrival terrace, reception desk, navigation and explicit reception identity"
+    },
+    {
+      "spaceId": "south",
+      "entityId": "south-hall-gallery",
+      "region": "项目展厅",
+      "model": "original reusable display furniture, shared materials and room label",
+      "publishedArtwork": [
+        "project-poster"
+      ]
+    },
+    {
+      "spaceId": "south",
+      "entityId": "south-hall-club",
+      "region": "社团空间",
+      "model": "original reusable display furniture, shared materials and room label",
+      "publishedArtwork": []
+    },
+    {
+      "spaceId": "south",
+      "entityId": "south-hall-studio",
+      "region": "共享工作室",
+      "model": "original reusable display furniture, shared materials and room label",
+      "publishedArtwork": []
+    },
+    {
+      "spaceId": "south",
+      "region": "entrance and reception",
+      "model": "arrival terrace, reception desk, navigation and explicit reception identity"
+    }
+  ],
+  "scope": "fresh local Base-1 runtimes and original synthetic examples; before is a newly generated no-artwork baseline, not a claimed historical screenshot or final school art approval"
+}

@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-23T07:41:38.739Z",
+  "kind": "real-ONNX-PostgreSQL-pgvector-Hermes-A2A",
+  "database": "PGlite embedded PostgreSQL + pgvector",
+  "embedding": "BAAI/bge-small-zh-v1.5 ONNX CPU 512D",
+  "model": "DeepSeek Flash via local Hermes",
+  "imported": {
+    "documents": 2,
+    "chunks": 2,
+    "excluded": 1,
+    "reused": false
+  },
+  "topHit": {
+    "documentId": "library",
+    "score": 0.5595515895424379
+  },
+  "answer": "根据《虚拟校园图书借阅规则》，学生借阅图书须出示有效校园卡；每次最多借四册，借期为二十一天。逾期归还规则由学校另行发布，资料中未给出具体细则。",
+  "sources": [
+    {
+      "id": "kb:library:0-623d7d42",
+      "title": "虚拟校园图书借阅规则",
+      "body": "这是原创虚拟校园示例。学生借阅图书须出示有效校园卡；每次最多借四册，借期二十一天。逾期归还规则由学校另行发布。",
+      "revision": 1,
+      "sceneId": null,
+      "entityId": null,
+      "documentId": "library",
+      "sourceLabel": "虚拟学生手册 / 图书借阅"
+    }
+  ],
+  "checks": {
+    "realEmbeddings": true,
+    "realSQLVectorQuery": true,
+    "persistentDatabase": true,
+    "unpublishedExcluded": true,
+    "citedOwnImportedDocument": true,
+    "duplicateNoSecondModelCall": true
+  },
+  "limits": [
+    "Original fictional corpus; not real school verification",
+    "External PostgreSQL TCP server not tested by this script"
+  ]
+}

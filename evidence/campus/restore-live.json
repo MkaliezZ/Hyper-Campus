@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "restored identity, saved model bytes and old spatial-tool receipt retain authority without second consumption",
+      "status": "PASS"
+    },
+    {
+      "name": "restored Nakama message bodies and NodeBB source content remain readable through current ACL only",
+      "status": "PASS"
+    },
+    {
+      "name": "controlled attachment bytes, hash and school permission survive restore",
+      "status": "PASS"
+    },
+    {
+      "name": "environment duties, rewards, operations, ledger and scheduled job authorities survive with current authenticated interfaces",
+      "status": "PASS"
+    },
+    {
+      "name": "restored seventh database and independent Ubuntu ONNX runtime return the original cited knowledge",
+      "status": "PASS"
+    },
+    {
+      "name": "new restored-avatar writes affect the clone only and preserve source user data",
+      "status": "PASS"
+    }
+  ],
+  "scope": "new seven-database Ubuntu fixture; source never restarted or rewritten; original M2 smoke had artifact-directory error after its assertions, this run independently verifies restored workflows"
+}

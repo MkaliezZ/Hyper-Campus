@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-10-23T17:42:49.911Z",
+  "checks": [
+    {
+      "name": "school isolation, readonly directory, actual A2A identity and no invented delegated authority",
+      "status": "PASS"
+    },
+    {
+      "name": "reviewed activity cards, organization isolation and immediate cancellation removal",
+      "status": "PASS"
+    },
+    {
+      "name": "partner assistant derives current reviewed source and loses visibility immediately on withdrawal",
+      "status": "PASS"
+    }
+  ],
+  "durationMs": 2574,
+  "scope": "Real authenticated APIs with fictitious published sources. Directory advertises actual A2A reception and human-confirmed workflows only; not delegated agent execution or real campus participation."
+}

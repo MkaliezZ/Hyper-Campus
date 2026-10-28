@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checkedAt": "2026-10-23T16:37:01.029Z",
+  "durationMs": 596,
+  "testSchool": "business-notices-98a99293",
+  "checks": [
+    {
+      "name": "restricted partner sees only its own actual application receipt",
+      "status": "PASS"
+    },
+    {
+      "name": "task ownership and current membership gate the exception without disclosing contact fields",
+      "status": "PASS"
+    },
+    {
+      "name": "honored withdrawal binds recipient, immutable voucher terms and the actual partner exit event",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Real Keycloak, PostgreSQL, authenticated business operations and narrow notification authorization helper. No real user data; forged fixture rows only for negative checks."
+}

@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-23T13:09:51.712Z",
+  "kind": "automated-spatial-contract",
+  "spaces": [
+    {
+      "spaceId": "north",
+      "scenes": [
+        {
+          "sceneId": "north-hall",
+          "geometryHash": "e3239989935dbd1bd3b51b5036ce0f0624cf63ed480b7f29ef37a8fbd21b6a28",
+          "nodes": 3411,
+          "rooms": [
+            {
+              "entityId": "north-hall-gallery",
+              "levelId": "L1",
+              "distance": 19.2
+            },
+            {
+              "entityId": "north-hall-club",
+              "levelId": "L1",
+              "distance": 26.4
+            },
+            {
+              "entityId": "north-hall-studio",
+              "levelId": "L2",
+              "distance": 24.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spaceId": "south",
+      "scenes": [
+        {
+          "sceneId": "south-hall",
+          "geometryHash": "41526a6f8954de8a5056c926211ee6e475ce909c59426c1d7bbe717ea4252ddc",
+          "nodes": 4711,
+          "rooms": [
+            {
+              "entityId": "south-hall-gallery",
+              "levelId": "L1",
+              "distance": 19.2
+            },
+            {
+              "entityId": "south-hall-club",
+              "levelId": "L1",
+              "distance": 28.4
+            },
+            {
+              "entityId": "south-hall-studio",
+              "levelId": "L2",
+              "distance": 26.4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

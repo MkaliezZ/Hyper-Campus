@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "fixtureOnly": true,
+  "checks": [
+    "cohort/month filters and resumed saved assignment with no invented date; Base-4 service link",
+    "ordinary member sees enabled references and own opt-in only; reload restores choice; completion clears rating"
+  ],
+  "errors": [],
+  "scope": "Owned headless browser contexts on one host; not actual students or physical devices.",
+  "resumedExistingWork": true
+}

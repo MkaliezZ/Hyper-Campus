@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "fixtureOnly": true,
+  "checks": [
+    "scoped grant creation, one-time token, clearing and revocation in real browser",
+    "owner sees reviewed publication snapshot and automatic index state",
+    "current-only search and explicit reviewed history with version labels"
+  ],
+  "errors": [],
+  "browserClosed": true,
+  "scope": "Owned headless browser on one host; no user browser or physical-device acceptance."
+}

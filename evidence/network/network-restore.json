@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "at": "2026-10-24T09:13:10.463Z",
+  "sevenDatabasesRestored": true,
+  "compared": [
+    {
+      "table": "hd_network_profiles",
+      "rows": 2,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_mentor_slots",
+      "rows": 5,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_mentor_bookings",
+      "rows": 5,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_career_opportunities",
+      "rows": 1,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_career_bookmarks",
+      "rows": 0,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_runtime_state",
+      "rows": 1,
+      "sameRowHash": true
+    }
+  ],
+  "restoredSessionExport": true,
+  "crossOwnerDenied": true,
+  "simulatedFutureRetentionClearsBodies": true,
+  "sourceWritersStopped": true,
+  "sourceUnchanged": true,
+  "limits": "Fictitious data on one host; restored storage/session manager verified. New target-server deployment and real school acceptance remain untested."
+}

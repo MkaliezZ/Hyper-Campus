@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "run": "7efb610e-c73a-4e94-b7a4-0a82f674838c",
+  "checkedAt": "2026-10-23T16:50:33.902Z",
+  "durationMs": 3224,
+  "checks": [
+    {
+      "name": "explicit two-party consent, recipient-only acceptance, scoped CAS and immutable receipts",
+      "status": "PASS"
+    },
+    {
+      "name": "existing SSE switches to read-only on revoke; old create/send receipts and edits denied, history and own remove retained",
+      "status": "PASS"
+    },
+    {
+      "name": "rejection, contact/request preferences, bilateral blocks and contact reapplication",
+      "status": "PASS"
+    },
+    {
+      "name": "same connection survives pool saturation; revocation serializes after already-authorized native write and blocks later disclosure",
+      "status": "PASS"
+    },
+    {
+      "name": "current organization revocation denies permission and old receipt; fresh grants are not inferred from old M1 messages",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Real Keycloak accounts, PostgreSQL, isolated Nakama through unchanged HTTP proxy. No actual campus or physical-device acceptance.",
+  "org": "contacts-7efb610e",
+  "conversationId": "afbe7b23-42bf-4342-8273-3b595ad2c756",
+  "users": [
+    "8f776fb8-8ea3-4ba2-bc9c-f409616eb576",
+    "fe5eb1ba-38a6-458f-835e-a70bcaa8dded",
+    "2fff41c5-9e94-47b3-939e-446fbfd6f3ba",
+    "4c716d70-1034-469d-9989-e98a9ca0acad"
+  ]
+}

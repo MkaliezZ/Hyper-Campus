@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "run": "7eb37bc2",
+  "checkedAt": "2026-10-23T16:33:56.330Z",
+  "durationMs": 2463,
+  "checks": [
+    {
+      "name": "current account/school boundaries and reviewed partner/service directory",
+      "status": "PASS"
+    },
+    {
+      "name": "explicit task consent, private proposal, receipt-backed local fixture creation and cancellation",
+      "status": "PASS"
+    },
+    {
+      "name": "service change requires new reviewed consent; exposure de-duplicates and merchant metrics contain no private fields",
+      "status": "PASS"
+    },
+    {
+      "name": "finite inventory, eligibility, terms, idempotent claims and contribution invariance",
+      "status": "PASS"
+    },
+    {
+      "name": "ten concurrent redemption requests yield one side effect; cross partner, school and revoked staff fail",
+      "status": "PASS"
+    },
+    {
+      "name": "expired source/voucher and partner exit honor or revoke issued snapshots with notifications",
+      "status": "PASS"
+    }
+  ],
+  "fixtureOnly": true,
+  "scope": "Automated real PostgreSQL/Keycloak plus local fictitious booking adapter; not real merchant acceptance.",
+  "preserved": {
+    "legacyPackages": true,
+    "userData": true
+  },
+  "objects": {
+    "partnerId": "3f367165-23d5-4ece-bddd-a36b7dfc7ced",
+    "otherPartnerId": "be9d2085-dc94-43cc-9d10-58c87e8e5293",
+    "serviceId": "b55a1f9c-f818-459b-b5ee-05d141a536c7",
+    "completedTaskId": "bc52df7b-24f3-4728-b74e-a7ef49165408",
+    "entitlementId": "a3609837-f8c9-4561-8867-4e93d7312436"
+  }
+}

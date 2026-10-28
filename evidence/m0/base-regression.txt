@@ -1,0 +1,25 @@
+
+> @hyper-dimension/base@0.2.1 test
+> node --test tests/*.test.mjs
+
+✔ Official A2A 1.0 SDK discovery/send/get/list, duplicate and restart, cross-space isolation (320.832ms)
+✔ Cancel and interrupted-task explicit resume; custom trusted capability checks its scope (137.2716ms)
+✔ Versioned packages preserve stable identities and reject prototype names (2.5111ms)
+✔ One geometry produces repeatable GLB and routes around holes through stairs (30.0074ms)
+✔ Durable receipts survive restart, conflicts do not repeat effects, single writer enforced (44.598ms)
+✔ Reception never sends unpublished records to an injected model; no fake live mode (1.5155ms)
+✔ Hermes transport isolates environment, handles UTF-8 and fails closed on tools, crash, timeout and cancel (1024.999ms)
+✔ Published media and artwork load from a package; private exhibits and traversal stay blocked (132.0007ms)
+✔ Real PostgreSQL/pgvector storage persists, scopes schools, replaces atomically and excludes unpublished input (2518.6288ms)
+✔ Chunk metadata and source gates preserve published-only authority, including withdrawn history (1.5787ms)
+✔ Two independent Base processes exchange A2A; acknowledged effect survives process death and lost response replay (809.1679ms)
+✔ General reception calls a model without retrieval hits; source authority remains explicit (4.5644ms)
+✔ A2A history is bounded and isolated by owner, Agent, space and context; replay is not another call (348.4737ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2829.9556

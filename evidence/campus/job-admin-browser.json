@@ -1,0 +1,19 @@
+{
+  "scope": "Automated Chrome, isolated native PostgreSQL/pg-boss; not real operators or physical multi-device acceptance",
+  "run": "5146867c",
+  "checks": [
+    {
+      "name": "school owner sees safe real failure status, moderator and visitor see a clear role boundary",
+      "status": "PASS"
+    },
+    {
+      "name": "owner supplies a reason and retries the original job without an arbitrary-payload editor",
+      "status": "PASS"
+    },
+    {
+      "name": "390px owner controls remain readable without horizontal overflow",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

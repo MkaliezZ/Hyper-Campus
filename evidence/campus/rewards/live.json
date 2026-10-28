@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-10-23T17:38:15.439Z",
+  "checks": [
+    {
+      "name": "current school and organizer scope, explicit demo approval and contribution eligibility",
+      "status": "PASS"
+    },
+    {
+      "name": "ten parallel claims allocate once, one actual badge, CAS receipts and historical score unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "additive v3 appearance, authoritative inventory gate, model restoration and precise revocation",
+      "status": "PASS"
+    },
+    {
+      "name": "only explicitly bound new activity requires actual active inventory qualification",
+      "status": "PASS"
+    },
+    {
+      "name": "expiry hides badge immediately and durable reconciliation reverses exact authority",
+      "status": "PASS"
+    },
+    {
+      "name": "partner reward uses original stock/voucher, failure retains allocation and retry completes same claim",
+      "status": "PASS"
+    }
+  ],
+  "durationMs": 8004,
+  "scope": "Isolated fictitious accounts and real authoritative PostgreSQL records. Automated checks; no actual school awards, external merchant fulfilment or physical multi-device acceptance."
+}

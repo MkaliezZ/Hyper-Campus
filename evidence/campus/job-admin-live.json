@@ -1,0 +1,22 @@
+{
+  "scope": "Actual isolated PostgreSQL/pg-boss/Keycloak and production HTTP; failure injected only via native API into newly-owned future fixture jobs; not real school delivery",
+  "run": "5146867c",
+  "checks": [
+    {
+      "name": "school-owner-only safe status list and school-bound identifiers",
+      "status": "PASS"
+    },
+    {
+      "name": "ten retries share one atomic receipt and one native retry transition, immutable inputs and current ACL",
+      "status": "PASS"
+    },
+    {
+      "name": "real reminder handler converges once and completed jobs cannot be manually replayed",
+      "status": "PASS"
+    },
+    {
+      "name": "Base-3 disabled rejects new manual retries and exact old receipts before touching native jobs",
+      "status": "PASS"
+    }
+  ]
+}

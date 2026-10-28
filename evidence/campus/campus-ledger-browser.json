@@ -1,0 +1,22 @@
+{
+  "scope": "automated browser contexts on one host, fictitious data; not physical multi-device or school acceptance",
+  "checks": [
+    {
+      "name": "member ranking and immutable explanations survive reload; management hidden",
+      "status": "PASS"
+    },
+    {
+      "name": "owner browser previews imports and explicitly approves a fictional rule version",
+      "status": "PASS"
+    },
+    {
+      "name": "owner browser creates future period with explicit example activation and stable frozen rebuild",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile no horizontal overflow and no page errors",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

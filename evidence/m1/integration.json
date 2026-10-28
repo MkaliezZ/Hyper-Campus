@@ -1,0 +1,47 @@
+{
+  "scope": "automated real Keycloak/PostgreSQL/NodeBB/Nakama on Ubuntu WSL, one host",
+  "startedAt": "2026-10-23T13:15:43.968Z",
+  "elapsedMs": 9824,
+  "results": [
+    {
+      "name": "verified issuer/subject identity; school isolation and stable three-system mappings",
+      "status": "PASS",
+      "ms": 592
+    },
+    {
+      "name": "organization creation, email-bound one-use invitation, partner boundary and delegated moderation",
+      "status": "PASS",
+      "ms": 1703
+    },
+    {
+      "name": "ownership handover, optimistic revisions, last-owner protection and existing token privilege loss",
+      "status": "PASS",
+      "ms": 622
+    },
+    {
+      "name": "avatar receipt and A2A ownership persist in PostgreSQL runtime, same receipt on retry",
+      "status": "PASS",
+      "ms": 142
+    },
+    {
+      "name": "native queue interruption reconciles without a second post or changed request",
+      "status": "PASS",
+      "ms": 560
+    },
+    {
+      "name": "native publish crash window recovers a single event, contribution and deduplicated notification",
+      "status": "PASS",
+      "ms": 2979
+    },
+    {
+      "name": "withdraw crash recovers one reversal; ledger repairs corrupt score and remote outbox",
+      "status": "PASS",
+      "ms": 2958
+    },
+    {
+      "name": "school and IdP revocation deny existing Base bearer and native Nakama sessions",
+      "status": "PASS",
+      "ms": 265
+    }
+  ]
+}

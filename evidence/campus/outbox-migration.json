@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "rowsPreserved": 56,
+  "checks": [
+    {
+      "name": "additive diagnostics migration on restored database preserves every old outbox row and score/version",
+      "status": "PASS"
+    }
+  ]
+}

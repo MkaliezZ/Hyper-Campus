@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "38-part editor requires explicit confirmation, validates incompatible parts and saves new model",
+      "status": "PASS"
+    },
+    {
+      "name": "independent browser context restores exact v2 recipe and model",
+      "status": "PASS"
+    },
+    {
+      "name": "running scene loads the saved upgraded avatar through the unchanged model interface",
+      "status": "PASS"
+    }
+  ],
+  "oldModelHash": "07603131dd2ebbd5f708e8228ba97f9177982caa9502d21a7870dae7cf8f0cf1",
+  "newModelHash": "f127cc3df156cf0af8bfb4e963639dd820340860f5878ad887b40c1a5b4c7c3b",
+  "errors": []
+}

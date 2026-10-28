@@ -1,0 +1,55 @@
+{
+  "at": "2026-10-24T09:48:37.158Z",
+  "browserClosed": true,
+  "baseClosed": true,
+  "children": [
+    {
+      "pid": 290964,
+      "closed": true,
+      "code": 0,
+      "signal": null
+    },
+    {
+      "pid": 316264,
+      "closed": true,
+      "code": 0,
+      "signal": null
+    },
+    {
+      "pid": 297424,
+      "closed": true,
+      "code": 0,
+      "signal": null
+    },
+    {
+      "pid": 16752,
+      "closed": true,
+      "code": 0,
+      "signal": null
+    },
+    {
+      "pid": 317220,
+      "closed": true,
+      "code": 0,
+      "signal": null
+    },
+    {
+      "pid": 278536,
+      "closed": true,
+      "code": 0,
+      "signal": null
+    },
+    {
+      "pid": 224336,
+      "closed": true,
+      "code": 0,
+      "signal": null
+    },
+    {
+      "pid": 301228,
+      "closed": true,
+      "code": 0,
+      "signal": null
+    }
+  ]
+}

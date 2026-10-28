@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "fixtureOnly": true,
+  "checks": [
+    "delegation authentication after actual Base restart",
+    "same durable A2A task and business cancellation receipt",
+    "post-restart revocation enforced"
+  ],
+  "temporarySecretRemoved": true
+}

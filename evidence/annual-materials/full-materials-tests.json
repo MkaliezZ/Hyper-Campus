@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "fixtureOnly": true,
+  "usesBothFullSuppliedMaterials": true,
+  "counts": {
+    "channelRecords": 82,
+    "calendarRecords": 432,
+    "cohorts": 9,
+    "references": 20,
+    "contextNotes": 38,
+    "pages": 18
+  },
+  "checks": [
+    "both full documents pass real backend preview, no side effects, calendar immutable import; draft and cross-school access denied",
+    "full XLSX conversion uploaded through browser file input, preview/import/activate, backend exact readback; cross-page selections create only work, Base-1/Base-4 links work and a separately confirmed QA date creates one scoped draft without contributions",
+    "all 432 calendar entries round-trip unchanged and are reachable across 18 bounded browser pages; all nine cohorts, 20 references and six variant notes preserved",
+    "ordinary member filters real calendar, sees student and optional family needs and rating conditions; objective rating disabled, priority is voluntary, reload recovers choice, completion clears rating and administrators cannot read it"
+  ],
+  "errors": [],
+  "htmlExecuted": false,
+  "actualSchoolPublication": false,
+  "contributionSideEffects": 0,
+  "scope": "Private documents tested on a loopback fictitious organization; no actual school activation, student trial or external merchant transaction."
+}

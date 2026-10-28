@@ -1,0 +1,17 @@
+{
+  "forumNorthSetup": true,
+  "forumAssetBuild": true,
+  "existingNamespaceRefusal": "implemented; private namespace isolated",
+  "node": "24.22.1",
+  "forumSouthSetup": true,
+  "cleanDependencyDirectory": true,
+  "environment": "Ubuntu 26.04.1 WSL, same host",
+  "postgresql": "18.6",
+  "lockedPackagesInstalled": 811,
+  "ignoreScripts": true,
+  "explicitEsbuildInstaller": true,
+  "java": "21.0.12.1",
+  "nakamaSouthMigration": true,
+  "limits": "Clean directory and separate namespace; not a second machine or fresh operating system installation",
+  "nakamaNorthMigration": true
+}

@@ -1,0 +1,51 @@
+{
+  "version": "0.2.1",
+  "at": "2026-10-23T08:13:39.000Z",
+  "changeScope": "Default receiving-Agent onboarding, proactive visual-polish guidance, package discovery, patch version and compatibility",
+  "entryPoints": [
+    "AGENTS.md",
+    "AGENT-START.md",
+    "START-HERE.md",
+    "README.md",
+    "docs/AGENT-ONBOARDING.md",
+    "prompts/04-VISUAL-POLISH.md"
+  ],
+  "scenarioReview": [
+    {
+      "input": "ZIP + 这是做什么用的？怎么用？",
+      "expected": "Read package, explain briefly and ask demo-or-school choice",
+      "review": "document walkthrough complete"
+    },
+    {
+      "input": "School plan already attached",
+      "expected": "Reuse attachment and proceed with school/building interpretation, without asking for the plan again",
+      "review": "document walkthrough complete"
+    },
+    {
+      "input": "No model key or final art",
+      "expected": "Continue independent modeling/content preparation and ask for missing items when needed",
+      "review": "document walkthrough complete"
+    },
+    {
+      "input": "Existing project or preview",
+      "expected": "Read handoff and preserve data; reuse correct preview or choose another data directory/port",
+      "review": "document walkthrough complete"
+    },
+    {
+      "input": "Walkable structure is complete but the prototype looks crude",
+      "expected": "Proactively explain the visual-upgrade step, reuse references or offer three styles, read the visual-polish checklist and build an entrance/room sample before extending; preserve navigation and distinguish placeholders from approved school assets",
+      "review": "document walkthrough complete"
+    },
+    {
+      "input": "Agent cannot read or execute files",
+      "expected": "State capability gap; do not claim package was read or service launched",
+      "review": "document walkthrough complete"
+    }
+  ],
+  "automatedRuntimeRegression": {
+    "passed": 13,
+    "failed": 0
+  },
+  "validationBoundary": "Entry-file/branch checks plus primary-agent document review. Not an independent third-party Agent session or human onboarding acceptance.",
+  "inheritedRuntimeEvidence": "evidence/knowledge-live.json is the actual v0.2.0 RAG test, retained with its original timestamp; runtime implementation is unchanged."
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "six-database restore into independent namespace and ports, Ubuntu WSL",
+  "sourceOverwritten": false,
+  "requiresRealServerAcceptance": true,
+  "results": [
+    {
+      "name": "restored Keycloak credentials log in; exact Base UUID and institutional membership preserved",
+      "status": "PASS"
+    },
+    {
+      "name": "restored avatar, A2A task and immutable message receipt survive restart without another effect",
+      "status": "PASS"
+    },
+    {
+      "name": "restored Nakama and NodeBB identities match existing mapping; event and ledger reconcile",
+      "status": "PASS"
+    }
+  ]
+}

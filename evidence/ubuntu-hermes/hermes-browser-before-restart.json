@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-24T12:49:56.398Z",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Browser Keycloak login, server-rendered space and actual container Hermes answer",
+      "status": "PASS"
+    },
+    {
+      "name": "Current OIDC identities enforce cross-person export/delete/context and school access",
+      "status": "PASS"
+    },
+    {
+      "name": "Two concurrent real requests complete with owner-scoped model history",
+      "status": "PASS"
+    },
+    {
+      "name": "Refresh restores persisted conversation before actual container restart",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "provider": "real local Hermes in Ubuntu container with online DeepSeek",
+  "identity": "actual Keycloak browser login and application HttpOnly session",
+  "realModelCalls": 3,
+  "limitations": [
+    "One-host browser automation, not physical multi-device or actual school acceptance"
+  ]
+}

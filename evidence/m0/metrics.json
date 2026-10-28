@@ -1,0 +1,19 @@
+{
+  "kind": "local-warm-read-budget",
+  "environment": {
+    "platform": "linux",
+    "release": "6.18.33.2-microsoft-standard-WSL2",
+    "node": "v24.22.1",
+    "cpu": "AMD Ryzen 5 5600 6-Core Processor",
+    "logicalCpus": 12,
+    "ramBytes": 16729649152
+  },
+  "samples": 50,
+  "concurrency": 5,
+  "p50Ms": 6.058750000000003,
+  "p95Ms": 39.65837400000001,
+  "maxMs": 98.82399000000001,
+  "budgetP95Ms": 500,
+  "status": "PASS",
+  "limits": "Two fictional schools, five fixture identities, local WSL. Not a production capacity or GPU benchmark."
+}

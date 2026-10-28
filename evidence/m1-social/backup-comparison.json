@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "databases": 6,
+  "tables": 192,
+  "rows": 4924,
+  "normalization": [
+    "hd_users.issuer only for explicit clone relocation"
+  ]
+}

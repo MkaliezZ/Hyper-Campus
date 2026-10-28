@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "sourceFilesReadOnly": true,
+  "xlsxChannelRecords": 82,
+  "calendarReferenceRecords": 432,
+  "calendarCohorts": 9,
+  "calendarReferences": 20,
+  "contextNotes": 38,
+  "sourceFieldsCheckedForEveryRecord": true,
+  "ratingConditionRecordsPreserved": 324,
+  "variantNotesPreserved": 6,
+  "publiclyPublished": false,
+  "htmlExecuted": false
+}

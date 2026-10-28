@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "at": "2026-10-24T13:04:28.652315+00:00",
+  "scope": "Local Ubuntu 26.04 Docker with independent fixture-only databases; owned Windows Chrome contexts, not physical multi-device or actual-school acceptance",
+  "unitTests": 45,
+  "unitFailures": 0,
+  "realHermesCalls": 8,
+  "realHermesBrowserGroups": 8,
+  "simultaneousRealHermesRequests": 2,
+  "databaseCount": 7,
+  "reports": [
+    {
+      "report": "backend-a2a.json",
+      "checks": 8,
+      "status": "PASS"
+    },
+    {
+      "report": "backend-community.json",
+      "checks": 6,
+      "status": "PASS"
+    },
+    {
+      "report": "backend-contacts.json",
+      "checks": 5,
+      "status": "PASS"
+    },
+    {
+      "report": "backend-indexing.json",
+      "checks": 5,
+      "status": "PASS"
+    },
+    {
+      "report": "backend-ledger.json",
+      "checks": 6,
+      "status": "PASS"
+    },
+    {
+      "report": "backend-m2.json",
+      "checks": 6,
+      "status": "PASS"
+    },
+    {
+      "report": "backend-network.json",
+      "checks": 5,
+      "status": "PASS"
+    },
+    {
+      "report": "browser-avatar.json",
+      "checks": 4,
+      "status": "PASS"
+    },
+    {
+      "report": "browser-community.json",
+      "checks": 3,
+      "status": "PASS"
+    },
+    {
+      "report": "browser-network.json",
+      "checks": 5,
+      "status": "PASS"
+    },
+    {
+      "report": "browser-partners.json",
+      "checks": 6,
+      "status": "PASS"
+    },
+    {
+      "report": "container-package-live.json",
+      "checks": 0,
+      "status": "PASS"
+    },
+    {
+      "report": "container-restore-live.json",
+      "checks": 0,
+      "status": "PASS"
+    },
+    {
+      "report": "hermes-browser-after-restart.json",
+      "checks": 4,
+      "status": "PASS"
+    },
+    {
+      "report": "hermes-browser-before-restart.json",
+      "checks": 4,
+      "status": "PASS"
+    }
+  ],
+  "sealedArchiveValidation": "Recorded separately beside the delivered ZIP after archive-only image rebuild",
+  "model": "Hermes 0.19.1 on pinned Python 3.13.17, online DeepSeek; not an offline LLM",
+  "credentialsOrUserDataPublished": false
+}

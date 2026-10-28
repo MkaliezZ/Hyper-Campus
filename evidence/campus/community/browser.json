@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "compose private draft, controlled attachment, reviewed publication and peer body access",
+      "status": "PASS"
+    },
+    {
+      "name": "author withdrawal removes the same source from peer discovery",
+      "status": "PASS"
+    },
+    {
+      "name": "responsive layout and independent contexts have no JavaScript errors",
+      "status": "PASS"
+    }
+  ],
+  "sourceId": "7509e2e5109ad99437f6ff8778817252",
+  "errors": []
+}

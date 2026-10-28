@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "own profile privacy and published work survive reload",
+      "status": "PASS"
+    },
+    {
+      "name": "independent school member sees only shared fields and work with safe external link",
+      "status": "PASS"
+    },
+    {
+      "name": "withdrawn work disappears from other member page",
+      "status": "PASS"
+    },
+    {
+      "name": "owner issues badge, recipient explicitly shares, owner revocation hides it from peers",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile layout and browser errors",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

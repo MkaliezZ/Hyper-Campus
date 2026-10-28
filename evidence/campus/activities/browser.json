@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "organizer authors task/time/capacity/verifier draft, submits and reviews publication",
+      "status": "PASS"
+    },
+    {
+      "name": "member registration, waitlist, withdrawal and FIFO promotion use current server states",
+      "status": "PASS"
+    },
+    {
+      "name": "private controlled attachment upload, designated verifier inspection, approval and source-preserving revocation",
+      "status": "PASS"
+    },
+    {
+      "name": "published recap, cancellation visibility for original participants and mobile layout",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "durationMs": 8452,
+  "scope": "Owned automated Chrome, three independent contexts on one Windows host, fictitious accounts and content. Not human campus acceptance or actual volunteer service."
+}

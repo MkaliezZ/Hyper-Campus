@@ -1,0 +1,13 @@
+{
+  "kind": "real IdP and PostgreSQL authorization regressions",
+  "results": [
+    {
+      "name": "invitation cannot downgrade existing owner or reactivate an existing membership",
+      "status": "PASS"
+    },
+    {
+      "name": "old signed token email cannot accept invitation after current IdP email changed",
+      "status": "PASS"
+    }
+  ]
+}

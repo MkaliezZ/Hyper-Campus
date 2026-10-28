@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "fixtureOnly": true,
+  "checks": [
+    "relocated OIDC preserves account/school identity",
+    "active version 3 and original activity reference restored",
+    "manager assignments remain available",
+    "private choices and completed/unrated state restored",
+    "school owner still cannot read other users personal choices"
+  ]
+}

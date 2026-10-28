@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "owner imports reviewed JSON, explicitly activates and schedules four real drafts with rule/reward references",
+      "status": "PASS"
+    },
+    {
+      "name": "review export contains actual source activity IDs and explicit draft-only effects",
+      "status": "PASS"
+    },
+    {
+      "name": "responsive owner workflow and unauthorized account boundary without JavaScript errors",
+      "status": "PASS"
+    }
+  ],
+  "runId": "abdfc1a6-3398-4599-914a-3a8571879ea5",
+  "errors": []
+}

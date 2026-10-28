@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "files": 780,
+  "forbiddenPaths": [],
+  "oversizedFiles": [],
+  "potentialCredentialFiles": [],
+  "repository": "MkaliezZ/Hyper-Campus",
+  "binaryDependenciesTracked": false,
+  "originalSourceUnchanged": true
+}

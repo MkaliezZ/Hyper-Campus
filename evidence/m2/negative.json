@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": [
+    "different operation types racing the same receipt ID: one commit, one conflict, no 500 or duplicate effect",
+    "client position injection rejected",
+    "foreign scene denied without inventory mutation"
+  ]
+}

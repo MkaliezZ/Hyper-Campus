@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-24T09:19:33.700Z",
+  "scope": "Fictitious namespace only. Fixture role/organization setup uses PostgreSQL; business operations and permission negatives use real API/NodeBB.",
+  "checks": [
+    {
+      "name": "Organization manager UI capability, native forum/metadata review, school separation and revocation of cached approval",
+      "status": "PASS"
+    },
+    {
+      "name": "Current school revocation removes discovery and denies old identity; bounded management pagination rejects invalid cursors",
+      "status": "PASS"
+    }
+  ],
+  "complete": true
+}

@@ -1,0 +1,212 @@
+{
+  "status": "PASS",
+  "startedAt": "2026-10-23T17:51:28.158Z",
+  "completedAt": "2026-10-23T17:52:28.285Z",
+  "durationMs": 60128,
+  "origin": "http://127.0.0.1:5980",
+  "spaces": [
+    {
+      "spaceId": "north",
+      "sceneId": "north-hall",
+      "geometryHash": "e3239989935dbd1bd3b51b5036ce0f0624cf63ed480b7f29ef37a8fbd21b6a28",
+      "modelSha256": "adc8c015b0b3cc3cf02460d5e394b59a6f75e45ad89e57448190cbc5a2c82b5f",
+      "modelBytes": 17280,
+      "levels": 2,
+      "artworkCount": 1,
+      "publicAssets": 1,
+      "publishedExhibits": 1,
+      "drawCalls": 129,
+      "rooms": [
+        {
+          "entityId": "north-hall-gallery",
+          "name": "项目展厅",
+          "levelId": "L1",
+          "point": [
+            9.4,
+            0,
+            3
+          ],
+          "distance": 19.2,
+          "pathPoints": 49,
+          "traversedLevels": [
+            "L1"
+          ],
+          "connectors": [],
+          "requestedPoint": null,
+          "durationMs": 5006
+        },
+        {
+          "entityId": "north-hall-club",
+          "name": "社团空间",
+          "levelId": "L1",
+          "point": [
+            16.6,
+            0,
+            3.0000000000000018
+          ],
+          "distance": 12.8,
+          "pathPoints": 33,
+          "traversedLevels": [
+            "L1"
+          ],
+          "connectors": [],
+          "requestedPoint": null,
+          "durationMs": 3600
+        },
+        {
+          "entityId": "north-hall-studio",
+          "name": "共享工作室",
+          "levelId": "L2",
+          "point": [
+            13.400000000000002,
+            3.6,
+            3
+          ],
+          "distance": 37.2,
+          "pathPoints": 80,
+          "traversedLevels": [
+            "L1",
+            "L2"
+          ],
+          "connectors": [
+            "north-hall-stairs"
+          ],
+          "requestedPoint": null,
+          "durationMs": 9650
+        }
+      ],
+      "reloadRetainedPosition": true,
+      "returnToSpawn": {
+        "levelId": "L1",
+        "point": [
+          -3,
+          0,
+          9.8
+        ],
+        "distance": 24.4,
+        "pathPoints": 48,
+        "traversedLevels": [
+          "L2",
+          "L1"
+        ],
+        "connectors": [
+          "north-hall-stairs"
+        ],
+        "requestedPoint": [
+          -3,
+          0,
+          10
+        ],
+        "durationMs": 6327
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "spaceId": "south",
+      "sceneId": "south-hall",
+      "geometryHash": "41526a6f8954de8a5056c926211ee6e475ce909c59426c1d7bbe717ea4252ddc",
+      "modelSha256": "3c09ac77ae89bd45486559811e52cd0fe6b6e8b5ee1b30be3d7121183d62063a",
+      "modelBytes": 17272,
+      "levels": 2,
+      "artworkCount": 1,
+      "publicAssets": 1,
+      "publishedExhibits": 1,
+      "drawCalls": 129,
+      "rooms": [
+        {
+          "entityId": "south-hall-gallery",
+          "name": "项目展厅",
+          "levelId": "L1",
+          "point": [
+            9.4,
+            0,
+            3
+          ],
+          "distance": 19.2,
+          "pathPoints": 49,
+          "traversedLevels": [
+            "L1"
+          ],
+          "connectors": [],
+          "requestedPoint": null,
+          "durationMs": 5431
+        },
+        {
+          "entityId": "south-hall-club",
+          "name": "社团空间",
+          "levelId": "L1",
+          "point": [
+            18.6,
+            0,
+            3.0000000000000018
+          ],
+          "distance": 14.8,
+          "pathPoints": 38,
+          "traversedLevels": [
+            "L1"
+          ],
+          "connectors": [],
+          "requestedPoint": null,
+          "durationMs": 3925
+        },
+        {
+          "entityId": "south-hall-studio",
+          "name": "共享工作室",
+          "levelId": "L2",
+          "point": [
+            15.400000000000002,
+            3.6,
+            3
+          ],
+          "distance": 41.2,
+          "pathPoints": 90,
+          "traversedLevels": [
+            "L1",
+            "L2"
+          ],
+          "connectors": [
+            "south-hall-stairs"
+          ],
+          "requestedPoint": null,
+          "durationMs": 10538
+        }
+      ],
+      "reloadRetainedPosition": true,
+      "returnToSpawn": {
+        "levelId": "L1",
+        "point": [
+          -3,
+          0,
+          9.8
+        ],
+        "distance": 26.4,
+        "pathPoints": 53,
+        "traversedLevels": [
+          "L2",
+          "L1"
+        ],
+        "connectors": [
+          "south-hall-stairs"
+        ],
+        "requestedPoint": [
+          -3,
+          0,
+          10
+        ],
+        "durationMs": 6836
+      },
+      "geometryUnchanged": true
+    }
+  ],
+  "movementRequests": 10,
+  "errors": [],
+  "checks": [
+    "all public rooms reached",
+    "actual cross-floor route",
+    "refresh retains authoritative position",
+    "return to original spawn",
+    "GLB and scene geometry hashes agree and remain unchanged",
+    "current art and 390px layout captured"
+  ],
+  "scope": "Fresh owned Chrome, two original synthetic spaces and restored isolated Ubuntu clone. Actual automatic duration only; not a human 20-minute session, private Plan14 test, physical multi-device or production-school acceptance."
+}

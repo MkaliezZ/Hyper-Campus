@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "retention preview/apply, body removal in source, held body hidden and operator audit",
+      "status": "PASS"
+    },
+    {
+      "name": "source committed without Base receipt: reconciliation recovers one event with no resend",
+      "status": "PASS"
+    },
+    {
+      "name": "native edit committed then response fault: stable pid, revision and zero additional score",
+      "status": "PASS"
+    },
+    {
+      "name": "real queued reply, native reply edit, withdrawal leaves parent topic intact",
+      "status": "PASS"
+    }
+  ],
+  "durationMs": 3838,
+  "sourceFault": "durable native write before Base receipt; after-edit response failure",
+  "testData": "synthetic isolated fixtures"
+}

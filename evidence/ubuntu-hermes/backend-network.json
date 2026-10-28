@@ -1,0 +1,50 @@
+{
+  "at": "2026-10-24T12:13:53.884Z",
+  "scope": "One-host Ubuntu Docker, real Keycloak/PostgreSQL/NodeBB; fictitious school data. Not actual school acceptance.",
+  "checks": [
+    {
+      "name": "Real Keycloak roles and school isolation; directory is opt-in and cannot be read cross-school",
+      "status": "PASS"
+    },
+    {
+      "name": "Mentor opt-in, scheduling overlap, self-booking, idempotency and concurrent capacity hold in PostgreSQL",
+      "status": "PASS"
+    },
+    {
+      "name": "Profile edit immediately withdraws discovery and cancels support, with private participant notifications",
+      "status": "PASS"
+    },
+    {
+      "name": "Native NodeBB review plus metadata review gate the career board; edits, source withdrawal and links stay authoritative",
+      "status": "PASS"
+    },
+    {
+      "name": "Reception sessions persist in the campus store, are exportable, owner bound and configurable by school owner only",
+      "status": "PASS"
+    }
+  ],
+  "attempts": [
+    {
+      "at": "2026-10-24T12:13:53.884Z",
+      "resume": false,
+      "checks": [
+        "Real Keycloak roles and school isolation; directory is opt-in and cannot be read cross-school",
+        "Mentor opt-in, scheduling overlap, self-booking, idempotency and concurrent capacity hold in PostgreSQL",
+        "Profile edit immediately withdraws discovery and cancels support, with private participant notifications",
+        "Native NodeBB review plus metadata review gate the career board; edits, source withdrawal and links stay authoritative",
+        "Reception sessions persist in the campus store, are exportable, owner bound and configurable by school owner only"
+      ]
+    }
+  ],
+  "complete": true,
+  "database": "hdnetworkzip08226_base",
+  "fixture": {
+    "profileUserId": "4f672393-6d25-4baf-bcaf-f55a7072130c",
+    "sourceId": "86d6781d41894843af2b1432a73a49c5",
+    "opportunityId": "78bb0de3-f3d7-4d7b-abe4-9e6c89ab2b1c",
+    "anchor": {
+      "sceneId": "north-hall",
+      "entityId": "north-hall-gallery"
+    }
+  }
+}

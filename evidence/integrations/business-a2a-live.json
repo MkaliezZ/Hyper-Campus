@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "fixtureOnly": true,
+  "checks": [
+    {
+      "name": "reviewed business service and explicit one-time scoped delegation",
+      "status": "PASS"
+    },
+    {
+      "name": "official A2A SDK directory and proposal-to-human-confirmation",
+      "status": "PASS"
+    },
+    {
+      "name": "duplicate A2A and business receipts across SDK clients; changed payload denied",
+      "status": "PASS"
+    },
+    {
+      "name": "a separate Agent OS process uses the official client without sharing application memory",
+      "status": "PASS"
+    },
+    {
+      "name": "delegation cannot confirm disclosure, select another school/service or call human REST",
+      "status": "PASS"
+    },
+    {
+      "name": "human consent then original operation receipt and delegated cancellation",
+      "status": "PASS"
+    },
+    {
+      "name": "expiry, narrow skills and source withdrawal gate new calls and cached published facts",
+      "status": "PASS"
+    },
+    {
+      "name": "revocation blocks cached GetTask, replay, list and new execution",
+      "status": "PASS"
+    }
+  ],
+  "limits": [
+    "Same host isolated processes; not actual merchant or school acceptance."
+  ]
+}

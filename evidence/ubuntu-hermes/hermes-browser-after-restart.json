@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-24T12:52:47.164Z",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Actual Base container restart preserves OIDC session, PostgreSQL transcript and real Hermes follow-up",
+      "status": "PASS"
+    },
+    {
+      "name": "Browser JSON export, deletion, cached message replay rejection and fresh model conversation",
+      "status": "PASS"
+    },
+    {
+      "name": "Current published room citations and unknown school facts remain separated from general conversation",
+      "status": "PASS"
+    },
+    {
+      "name": "A new active real model session is retained solely for isolated seven-database backup/restore verification",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "provider": "real local Hermes in Ubuntu container with online DeepSeek",
+  "identity": "actual Keycloak browser login and application HttpOnly session",
+  "realModelCalls": 5,
+  "limitations": [
+    "One-host browser automation, not physical multi-device or actual school acceptance"
+  ]
+}

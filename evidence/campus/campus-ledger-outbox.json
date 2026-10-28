@@ -1,0 +1,17 @@
+{
+  "scope": "real isolated PostgreSQL and synthetic delivery callback; live Nakama covered separately",
+  "checks": [
+    {
+      "name": "eight concurrent PostgreSQL workers have one owner; each queued version delivered once",
+      "status": "PASS"
+    },
+    {
+      "name": "failed delivery remains pending; original score/version retries and lock is released",
+      "status": "PASS"
+    },
+    {
+      "name": "101 unavailable identities across three keyset pages retain order and diagnostics; later healthy school progresses once; original rows recover without permission changes",
+      "status": "PASS"
+    }
+  ]
+}

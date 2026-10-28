@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-24T09:06:01.946Z",
+  "scope": "One-host Ubuntu Docker, real Keycloak/PostgreSQL/NodeBB; fictitious school data. Not actual school acceptance.",
+  "checks": [
+    {
+      "name": "Real Keycloak roles and school isolation; directory is opt-in and cannot be read cross-school",
+      "status": "PASS"
+    },
+    {
+      "name": "Mentor opt-in, scheduling overlap, self-booking, idempotency and concurrent capacity hold in PostgreSQL",
+      "status": "PASS"
+    },
+    {
+      "name": "Profile edit immediately withdraws discovery and cancels support, with private participant notifications",
+      "status": "PASS"
+    },
+    {
+      "name": "Native NodeBB review plus metadata review gate the career board; edits, source withdrawal and links stay authoritative",
+      "status": "PASS"
+    },
+    {
+      "name": "Reception sessions persist in the campus store, are exportable, owner bound and configurable by school owner only",
+      "status": "PASS"
+    }
+  ],
+  "attempts": [
+    {
+      "at": "2026-10-24T09:06:01.946Z",
+      "resume": true,
+      "checks": [
+        "Native NodeBB review plus metadata review gate the career board; edits, source withdrawal and links stay authoritative",
+        "Reception sessions persist in the campus store, are exportable, owner bound and configurable by school owner only"
+      ]
+    }
+  ],
+  "complete": true,
+  "namespace": "hdnetwork26",
+  "fixture": {
+    "profileUserId": "2a5f46c5-7d1a-4b12-9f53-a8013c7f8030",
+    "sourceId": "1dad9aea119eefe99710fd6b0024364b",
+    "opportunityId": "6619b6f7-fd88-476c-b93c-5af7571b0142",
+    "anchor": {
+      "sceneId": "north-hall",
+      "entityId": "north-hall-gallery"
+    }
+  }
+}

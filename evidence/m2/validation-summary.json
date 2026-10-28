@@ -1,0 +1,39 @@
+{
+  "environment": "single host Ubuntu WSL + two fresh owned Chrome contexts",
+  "originalPartAssets": 24,
+  "presets": 4,
+  "remaining": [
+    "formal verified identity badges and works portfolio",
+    "multiplayer avatar and effect replication",
+    "arbitrary external VRM/animation import and deformable clothing",
+    "Agent long-term memory",
+    "target Ubuntu deployment, actual SMTP, school users and capacity acceptance",
+    "M3/M4 operating policies and partner business"
+  ],
+  "backup": {
+    "tables": 199,
+    "matches": true,
+    "databases": 6,
+    "rows": 5026
+  },
+  "privateDataBundled": false,
+  "browserGroups": 4,
+  "extraNegativeChecks": 3,
+  "extensionVersion": "0.4.0",
+  "baseCoreVersion": "0.2.1",
+  "animations": [
+    "Idle",
+    "Walk",
+    "Wave"
+  ],
+  "recordedAt": "2026-10-23T15:33:42.9752666Z",
+  "status": "PASS",
+  "scope": "M2 avatar library, editor-save-recovery, inventory and non-destructive spatial tools",
+  "priorityScopeComplete": true,
+  "existingM1RegressionGroups": 8,
+  "productionReady": false,
+  "unitTests": 18,
+  "restartAndRestore": "PASS",
+  "fullM2PlanComplete": false,
+  "realServiceGroups": 6
+}

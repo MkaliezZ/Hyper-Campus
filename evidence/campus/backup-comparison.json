@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "databases": [
+    "base",
+    "keycloak",
+    "north_nakama",
+    "north_forum",
+    "south_nakama",
+    "south_forum",
+    "knowledge"
+  ],
+  "tables": 296,
+  "rows": 12255,
+  "checks": [
+    {
+      "name": "all seven database table row counts and hashes match before restored writers start",
+      "status": "PASS"
+    }
+  ],
+  "normalization": [
+    "hd_users.issuer only for explicit clone relocation"
+  ],
+  "scope": "fresh isolated Ubuntu namespace; source databases retained; includes pgvector, pg-boss, controlled attachment bytea, avatar catalog recipes and business/event tables"
+}

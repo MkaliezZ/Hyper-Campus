@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "subscription preferences, scoped role validation and exact request retries",
+      "status": "PASS"
+    },
+    {
+      "name": "ten duplicate source events yield one inbox notification, altered same event conflicts",
+      "status": "PASS"
+    },
+    {
+      "name": "offline unread retrieval, read isolation, unsubscribe and opt-out stop new deliveries",
+      "status": "PASS"
+    },
+    {
+      "name": "withdrawal and expiry stop current and legacy inbox reads; expiry removes title, retains audit",
+      "status": "PASS"
+    },
+    {
+      "name": "organization scope, existing-session revocation and prior receipt reuse denied",
+      "status": "PASS"
+    }
+  ],
+  "scope": "isolated Ubuntu service fixture; no actual school users"
+}

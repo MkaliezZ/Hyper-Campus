@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "v1 saved model remains byte-identical; v2 catalogs and all added paths are available",
+      "status": "PASS"
+    },
+    {
+      "name": "missing, stale or incorrect explicit upgrade proofs fail without changing the old save",
+      "status": "PASS"
+    },
+    {
+      "name": "explicit upgrade commits once, CAS protects races and old recipe remains rebuildable",
+      "status": "PASS"
+    },
+    {
+      "name": "fresh login restores the v2 recipe, while another account cannot read it",
+      "status": "PASS"
+    }
+  ],
+  "durationMs": 1390,
+  "oldModelHash": "07603131dd2ebbd5f708e8228ba97f9177982caa9502d21a7870dae7cf8f0cf1",
+  "newModelHash": "f127cc3df156cf0af8bfb4e963639dd820340860f5878ad887b40c1a5b4c7c3b",
+  "newCatalogHash": "459620abf448d6f5d4f1c13c2e481b53cb836b22b1325dfd6bfaafd581fca204",
+  "dedicatedFixtureUserId": "0677b563-7fc8-4190-b28b-dfd6439e5a9c"
+}

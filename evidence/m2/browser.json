@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "VRM 1 browser loader, all customization controls, live Idle/Walk/Wave and saved avatar",
+      "status": "PASS"
+    },
+    {
+      "name": "second independent browser context restores exact recipe/model hash and school bag",
+      "status": "PASS"
+    },
+    {
+      "name": "scene uses saved avatar, real navigation then postcard and private note handoff to forum draft",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile layout and no browser exceptions",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "durationMs": 11975,
+  "avatarHash": "978421309079869401c3a965b2dc8e172559ab20116751d5d2eeb532018649a7",
+  "browser": "owned Chrome on one Windows host; two fresh contexts"
+}

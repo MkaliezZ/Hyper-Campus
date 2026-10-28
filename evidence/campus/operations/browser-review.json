@@ -1,0 +1,284 @@
+{
+  "schema": "hyper-dimension.operations-review/v1",
+  "schoolId": "north",
+  "orgId": "ops-12a6a809",
+  "runId": "abdfc1a6-3398-4599-914a-3a8571879ea5",
+  "revision": 1,
+  "title": "可复做校园运营 ae31285a 排期",
+  "package": {
+    "packageId": "browser-ae31285a",
+    "version": 1,
+    "fingerprint": "cecadd21593f1384c42eac0ebc62e430d280f49b8184c1037da5d1645dcb13f5",
+    "exampleOnly": true
+  },
+  "responsible": {
+    "user_id": "dc07164c-58fd-45bf-8433-e6f9a08ef087",
+    "display_name": "moda"
+  },
+  "currentResponsibleAuthorized": true,
+  "createdBy": "dc07164c-58fd-45bf-8433-e6f9a08ef087",
+  "createdAt": "2026-10-23T17:25:29.267Z",
+  "plan": {
+    "rule": {
+      "label": "虚构演示规则，需学校自行确认",
+      "fingerprint": "db9e6bbf5dab5634e4c0b3a685b5c444f46a41569b96933132eae697eb8fc3c9",
+      "ruleVersion": "ops-rules-12a6a809"
+    },
+    "slots": [
+      {
+        "input": {
+          "kind": "event",
+          "orgId": "ops-12a6a809",
+          "tasks": [],
+          "title": "迎新与空间导览",
+          "endsAt": "2026-10-30T18:25:00.000Z",
+          "sceneId": "north-hall",
+          "capacity": 30,
+          "entityId": "north-hall-gallery",
+          "startsAt": "2026-10-30T17:25:00.000Z",
+          "conditions": "自愿报名；不收集与活动无关的私人资料。",
+          "description": "介绍学校公开设施与组织入口，记录参与反馈；内容由负责人核对。",
+          "verifierIds": [
+            "dc07164c-58fd-45bf-8433-e6f9a08ef087"
+          ],
+          "remindBeforeMinutes": 60,
+          "registrationClosesAt": "2026-10-30T17:25:00.000Z"
+        },
+        "periods": [],
+        "templateId": "welcome",
+        "responsibility": "学校负责人组织，指定人员核验实际参与。"
+      },
+      {
+        "input": {
+          "kind": "event",
+          "orgId": "ops-12a6a809",
+          "tasks": [],
+          "title": "校园读书交流",
+          "endsAt": "2026-11-06T18:25:00.000Z",
+          "sceneId": "north-hall",
+          "capacity": 20,
+          "entityId": "north-hall-gallery",
+          "startsAt": "2026-11-06T17:25:00.000Z",
+          "conditions": "自愿参加；分享内容需有权使用。",
+          "description": "围绕获准主题组织交流，活动结束由负责人发布回顾。",
+          "verifierIds": [
+            "dc07164c-58fd-45bf-8433-e6f9a08ef087"
+          ],
+          "remindBeforeMinutes": 60,
+          "registrationClosesAt": "2026-11-06T16:55:00.000Z"
+        },
+        "periods": [],
+        "templateId": "reading",
+        "responsibility": "组织负责人准备资料，主持人维护讨论秩序。"
+      },
+      {
+        "input": {
+          "kind": "volunteer",
+          "orgId": "ops-12a6a809",
+          "tasks": [
+            {
+              "id": "guide",
+              "title": "公共设施引导",
+              "description": "帮助访客了解公开设施，提交可核对且不含私人信息的服务说明。"
+            },
+            {
+              "id": "materials",
+              "title": "公开资料整理",
+              "description": "整理经授权的公开校园资料，保留来源，由负责人检查。"
+            }
+          ],
+          "title": "校园志愿服务",
+          "endsAt": "2026-11-13T19:25:00.000Z",
+          "sceneId": "north-hall",
+          "capacity": 15,
+          "entityId": "north-hall-gallery",
+          "startsAt": "2026-11-13T17:25:00.000Z",
+          "conditions": "由负责人确认服务时间与内容；自述不能直接获得贡献。",
+          "description": "按照明确任务提供非强制志愿服务，核验人检查实际证明后确认服务记录。",
+          "verifierIds": [
+            "dc07164c-58fd-45bf-8433-e6f9a08ef087"
+          ],
+          "remindBeforeMinutes": 120,
+          "registrationClosesAt": "2026-11-13T16:25:00.000Z"
+        },
+        "periods": [],
+        "templateId": "volunteer",
+        "responsibility": "任务负责人分配任务，指定核验人确认服务成果。"
+      },
+      {
+        "input": {
+          "kind": "event",
+          "orgId": "ops-12a6a809",
+          "tasks": [],
+          "title": "毕业记忆分享",
+          "endsAt": "2027-02-07T18:25:00.000Z",
+          "sceneId": "north-hall",
+          "capacity": 40,
+          "entityId": "north-hall-gallery",
+          "startsAt": "2027-02-07T17:25:00.000Z",
+          "conditions": "尊重参与者意愿和图片权利；不公开他人私人联系信息。",
+          "description": "邀请成员分享可公开的校园记忆，投稿仍走社区审核，活动回顾引用已获准内容。",
+          "verifierIds": [
+            "dc07164c-58fd-45bf-8433-e6f9a08ef087"
+          ],
+          "remindBeforeMinutes": 60,
+          "registrationClosesAt": "2027-02-07T17:25:00.000Z"
+        },
+        "periods": [],
+        "templateId": "graduation",
+        "responsibility": "届别组织负责人协调，版主审核独立的社区投稿。"
+      }
+    ],
+    "title": "可复做校园运营 ae31285a 排期",
+    "reward": {
+      "kind": "badge",
+      "title": "虚构运营示例纪念徽章",
+      "status": "published",
+      "revision": 3,
+      "rewardId": "13db2dff-fdfc-4e80-bdac-9b4d1549d6f0",
+      "expiresAt": "2027-10-24T17:23:22.764Z",
+      "demonstration": true
+    },
+    "effects": {
+      "issuesRewards": 0,
+      "activatesRules": 0,
+      "changesHistory": false,
+      "publishesActivities": 0,
+      "createsDraftActivities": 4
+    },
+    "warnings": [
+      "虚构模板：负责人需确认本校实际安排。",
+      "部分活动日期尚无激活的计分时期。实际核验仍按事件时生效规则，不由排期发分。",
+      "奖励仅关联运营目标，领取/发放须另走奖励资格与库存校验。"
+    ],
+    "packageId": "browser-ae31285a",
+    "exampleOnly": true,
+    "packageHash": "cecadd21593f1384c42eac0ebc62e430d280f49b8184c1037da5d1645dcb13f5",
+    "previewHash": "9e297b7f2faa9268b8dff624a36eb3b4976a20778a48fca78b076eeb18201e87",
+    "headRevision": 1,
+    "responsibleId": "dc07164c-58fd-45bf-8433-e6f9a08ef087",
+    "packageVersion": 1
+  },
+  "timeline": [
+    {
+      "activityId": "4c5838ac-4491-4a3d-a276-f414f8b91709",
+      "templateId": "welcome",
+      "createdRevision": 1,
+      "activity": {
+        "activity_id": "4c5838ac-4491-4a3d-a276-f414f8b91709",
+        "title": "迎新与空间导览",
+        "kind": "event",
+        "status": "draft",
+        "revision": 1,
+        "starts_at": "2026-10-30T17:25:00.000Z",
+        "ends_at": "2026-10-30T18:25:00.000Z",
+        "capacity": 30,
+        "org_id": "ops-12a6a809",
+        "recap": null,
+        "recap_revision": 0
+      },
+      "participants": [],
+      "contributions": {
+        "entries": 0,
+        "delta": 0
+      }
+    },
+    {
+      "activityId": "69ce719f-9d3f-4e3c-886f-5007fb0f73f7",
+      "templateId": "reading",
+      "createdRevision": 1,
+      "activity": {
+        "activity_id": "69ce719f-9d3f-4e3c-886f-5007fb0f73f7",
+        "title": "校园读书交流",
+        "kind": "event",
+        "status": "draft",
+        "revision": 1,
+        "starts_at": "2026-11-06T17:25:00.000Z",
+        "ends_at": "2026-11-06T18:25:00.000Z",
+        "capacity": 20,
+        "org_id": "ops-12a6a809",
+        "recap": null,
+        "recap_revision": 0
+      },
+      "participants": [],
+      "contributions": {
+        "entries": 0,
+        "delta": 0
+      }
+    },
+    {
+      "activityId": "c7d104d6-a645-4662-9a7d-5df0e3b59cb0",
+      "templateId": "volunteer",
+      "createdRevision": 1,
+      "activity": {
+        "activity_id": "c7d104d6-a645-4662-9a7d-5df0e3b59cb0",
+        "title": "校园志愿服务",
+        "kind": "volunteer",
+        "status": "draft",
+        "revision": 1,
+        "starts_at": "2026-11-13T17:25:00.000Z",
+        "ends_at": "2026-11-13T19:25:00.000Z",
+        "capacity": 15,
+        "org_id": "ops-12a6a809",
+        "recap": null,
+        "recap_revision": 0
+      },
+      "participants": [],
+      "contributions": {
+        "entries": 0,
+        "delta": 0
+      }
+    },
+    {
+      "activityId": "b9355a69-1de0-4cff-9c1d-7a4f544aceda",
+      "templateId": "graduation",
+      "createdRevision": 1,
+      "activity": {
+        "activity_id": "b9355a69-1de0-4cff-9c1d-7a4f544aceda",
+        "title": "毕业记忆分享",
+        "kind": "event",
+        "status": "draft",
+        "revision": 1,
+        "starts_at": "2027-02-07T17:25:00.000Z",
+        "ends_at": "2027-02-07T18:25:00.000Z",
+        "capacity": 40,
+        "org_id": "ops-12a6a809",
+        "recap": null,
+        "recap_revision": 0
+      },
+      "participants": [],
+      "contributions": {
+        "entries": 0,
+        "delta": 0
+      }
+    }
+  ],
+  "handoffs": [],
+  "nextActions": [
+    {
+      "activityId": "4c5838ac-4491-4a3d-a276-f414f8b91709",
+      "status": "draft",
+      "url": "/activities.html?school=north&organization=ops-12a6a809"
+    },
+    {
+      "activityId": "69ce719f-9d3f-4e3c-886f-5007fb0f73f7",
+      "status": "draft",
+      "url": "/activities.html?school=north&organization=ops-12a6a809"
+    },
+    {
+      "activityId": "c7d104d6-a645-4662-9a7d-5df0e3b59cb0",
+      "status": "draft",
+      "url": "/activities.html?school=north&organization=ops-12a6a809"
+    },
+    {
+      "activityId": "b9355a69-1de0-4cff-9c1d-7a4f544aceda",
+      "status": "draft",
+      "url": "/activities.html?school=north&organization=ops-12a6a809"
+    }
+  ],
+  "boundaries": [
+    "模板排期只创建草稿；审核发布、核验与发奖各自受控。",
+    "复盘只列当前活动汇总与实际贡献流水，不导出个人证据、联系方式或私信。",
+    "旧版本和原活动不被新版模板或负责人交接改写。"
+  ]
+}

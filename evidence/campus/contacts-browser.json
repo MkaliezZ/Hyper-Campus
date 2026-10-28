@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "run": "b6b5b4d8",
+  "checkedAt": "2026-10-23T16:56:35.124Z",
+  "durationMs": 7476,
+  "checks": [
+    {
+      "name": "browser explicit request and recipient acceptance before private conversation",
+      "status": "PASS"
+    },
+    {
+      "name": "browser message roundtrip, reload recovery, in-place revoke readonly and own retraction",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile contact settings fit viewport; no browser exceptions",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Two clean automated browser contexts on one host, real isolated OIDC/PG/Nakama. Not human or physical multi-device acceptance.",
+  "org": "contacts-ui-b6b5b4d8"
+}

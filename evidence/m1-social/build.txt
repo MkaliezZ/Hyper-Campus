@@ -1,0 +1,2 @@
+{"sceneId":"north-hall","geometryHash":"e3239989935dbd1bd3b51b5036ce0f0624cf63ed480b7f29ef37a8fbd21b6a28","bytes":17280}
+{"sceneId":"south-hall","geometryHash":"41526a6f8954de8a5056c926211ee6e475ce909c59426c1d7bbe717ea4252ddc","bytes":17272}

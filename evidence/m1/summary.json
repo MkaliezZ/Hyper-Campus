@@ -1,0 +1,20 @@
+{
+  "restoredDatabases": 6,
+  "humanAcceptance": false,
+  "baseRegressionTests": 13,
+  "milestone": "M1",
+  "restoredTables": 185,
+  "liveIntegrationGroups": 8,
+  "extensionVersion": "0.2.0",
+  "restoredRows": 4414,
+  "externalMailDeliveryTested": false,
+  "productionReady": false,
+  "browserAccountGroups": 3,
+  "actualProcessRestartPassed": true,
+  "status": "M1_PRIORITY_SCOPE_PASSED",
+  "backupManifestFiles": 39,
+  "fullM1Complete": false,
+  "environment": "Ubuntu WSL on one Windows host; browser frontend",
+  "scope": "four priority capabilities",
+  "userDataPreserved": true
+}

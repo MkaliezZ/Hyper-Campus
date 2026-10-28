@@ -1,0 +1,18 @@
+{
+  "runtimeBaseline": "0.8.2",
+  "repository": "https://github.com/MkaliezZ/Hyper-Campus",
+  "import": "Tracked source only; fresh Git history; no ZIP, private inputs, user projects, databases or credentials",
+  "originalBaseWorktreeModified": false,
+  "sourceCheckoutChanges": [
+    "Hyper Campus README",
+    "Source-checkout entry and documentation map",
+    "Pinned Hermes build-input preparation",
+    "Generated dependency/large file exclusions"
+  ],
+  "protocolVersion": "0.2.1",
+  "source": "Hyper Dimension Base campus",
+  "sourceCommit": "2aed4d473bd1e367b50c31dcb0a896891bc65492",
+  "visibility": "private",
+  "documentationBaseline": "0.8.3",
+  "sourceRuntimeChanges": false
+}

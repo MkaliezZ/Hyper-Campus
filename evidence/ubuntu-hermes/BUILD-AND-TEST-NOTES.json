@@ -1,0 +1,25 @@
+{
+  "previousInputArchive": {
+    "version": "0.8.1",
+    "sha256": "ecd5b808868bcb5336db2ab9bd029a44192cf69bf2aa45a51fe3516998c83e89",
+    "preserved": true
+  },
+  "fixedBuildIssues": [
+    "Ubuntu system Python 3.14 outside pinned Hermes Python range; separate pinned 3.13 runtime supplied",
+    "uv 0.9.7 cannot parse upstream lock; pinned official uv 0.12.1 wheel and hash bundled",
+    "Slow official component and npm downloads; fixed-SHA public component cache and ZIP manifest-verified platform-neutral production Node packages used",
+    "Installer cache excluded by legacy Docker ignore handling; core built before temporary trusted Hermes cache, subsequent frozen installer reused completed downloads"
+  ],
+  "legacyOrSetupChecks": [
+    "Legacy M1 event notification expects raw eventId; current campus ledger deliberately uses ledger:eventId. Current community and campus-ledger suites passed without changing their assertions.",
+    "Legacy M1 chat governance assumes pre-consent contact creation; current contact consent suite passed with actual recipient approval and revoke cases.",
+    "Partner browser first run correctly refused absent external fixture adapter; explicitly enabled local-fixture only in the new test namespace, then six browser groups passed.",
+    "Network browser first run lacked its generated fixture report locally; copied the successful backend report, then all five browser groups passed."
+  ],
+  "notClaimed": [
+    "No blind retries or relaxed business assertions",
+    "No target production server/TLS/real SMTP or physical-device acceptance",
+    "No actual merchant booking or school operational validation",
+    "No fresh independent-agent ZIP reception for this version"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "at": "2026-10-23T07:44:55.192Z",
+  "automatedTests": {
+    "pass": 13,
+    "fail": 0
+  },
+  "realRAG": "PASS: bundled ONNX + embedded PostgreSQL/pgvector + local Hermes + A2A on original fictional corpus",
+  "publicCorpusOnly": true,
+  "notTested": [
+    "independent PostgreSQL TCP server deployment",
+    "MySQL backend (not implemented)",
+    "Ollama/cloud embedding real service",
+    "human acceptance",
+    "macOS physical machine",
+    "production concurrency"
+  ],
+  "knownHistoricalObservation": "v0.1.1 had one parallel software-WebGL/Hermes 60-second timeout; subsequent single-browser real questions passed. No timeout expansion or production-load claim.",
+  "originalUserDrawingExcluded": true,
+  "credentialsAndUserStateExcluded": true
+}

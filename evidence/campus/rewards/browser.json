@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-10-23T17:38:29.355Z",
+  "checks": [
+    {
+      "name": "organization owner can author only own organization scope; school manager sees participation boundary before claiming",
+      "status": "PASS"
+    },
+    {
+      "name": "organizer creates scoped finite reward, explicit demo confirmation precedes publication",
+      "status": "PASS"
+    },
+    {
+      "name": "member reads conditions, consents and sees actual personal badge and durable receipt",
+      "status": "PASS"
+    },
+    {
+      "name": "manager revocation updates actual badge and member history, mobile width has no overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "reward appearance UI explicitly upgrades, displays earned ribbon and restores in independent browser",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "durationMs": 9107,
+  "scope": "Owned automated Chrome contexts on one host, fictional rewards and accounts. No human or real campus acceptance."
+}

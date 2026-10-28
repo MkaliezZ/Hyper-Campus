@@ -1,0 +1,41 @@
+{
+  "kind": "M0 isolated business database snapshot",
+  "tables": {
+    "hd_users": {
+      "count": 5,
+      "sha256": "91aeca64f5ef71cbaca5b0b3143d1cd5de7dc95050c755d23b9075bde121c62b"
+    },
+    "hd_memberships": {
+      "count": 6,
+      "sha256": "7169c17d332c6c8c98ef06e927b67c9a600277817358967bbecbfb6a4a58bde5"
+    },
+    "hd_identities": {
+      "count": 3,
+      "sha256": "a74148e0bfbe259b872b07e81973927b81b7bc141920b449cd59b68556d3bb8a"
+    },
+    "hd_avatars": {
+      "count": 1,
+      "sha256": "b72b958762399168d5f869af92701d0e6c6aaf3304d68625b8b5a2c8c3148e7f"
+    },
+    "hd_receipts": {
+      "count": 6,
+      "sha256": "8434a9a103fda8ea5f06186613ad012497f0fa9a961e6ddf2a5c6a62f82cda59"
+    },
+    "hd_forum_heads": {
+      "count": 4,
+      "sha256": "bf4ebf1e4093eda1f795a0768b4c729b67588fbfd8ebe96040ad40985050f830"
+    },
+    "hd_events": {
+      "count": 6,
+      "sha256": "83f501ec2683ceb229c0224e2d08a6daa4c70afec81ddea83c569d17a8d59239"
+    },
+    "hd_contributions": {
+      "count": 6,
+      "sha256": "afa90ccbdde3601c04c1f72671f123d512877a252c7aad5f57ea237c20083321"
+    },
+    "hd_scores": {
+      "count": 1,
+      "sha256": "9e8ce02dcf8ba5c5a67d9232bed1a38d5076f6f049a0b3207871ed3e664df7c6"
+    }
+  }
+}

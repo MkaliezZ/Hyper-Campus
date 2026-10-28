@@ -1,0 +1,21 @@
+✔ Official A2A 1.0 SDK discovery/send/get/list, duplicate and restart, cross-space isolation (334.0069ms)
+✔ Cancel and interrupted-task explicit resume; custom trusted capability checks its scope (122.5509ms)
+✔ Versioned packages preserve stable identities and reject prototype names (1.8312ms)
+✔ One geometry produces repeatable GLB and routes around holes through stairs (27.4599ms)
+✔ Durable receipts survive restart, conflicts do not repeat effects, single writer enforced (44.6683ms)
+✔ Reception never sends unpublished records to an injected model; no fake live mode (2.0716ms)
+✔ Hermes transport isolates environment, handles UTF-8 and fails closed on tools, crash, timeout and cancel (1035.8758ms)
+✔ Published media and artwork load from a package; private exhibits and traversal stay blocked (134.057ms)
+✔ Real PostgreSQL/pgvector storage persists, scopes schools, replaces atomically and excludes unpublished input (2443.3822ms)
+✔ Chunk metadata and source gates preserve published-only authority, including withdrawn history (1.5697ms)
+✔ Two independent Base processes exchange A2A; acknowledged effect survives process death and lost response replay (795.0085ms)
+✔ General reception calls a model without retrieval hits; source authority remains explicit (3.2357ms)
+✔ A2A history is bounded and isolated by owner, Agent, space and context; replay is not another call (323.852ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2772.7648

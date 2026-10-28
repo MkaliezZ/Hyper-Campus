@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-10-23T17:44:50.576Z",
+  "checks": [
+    {
+      "name": "directory distinguishes real reception agent, human workflow assistants and responsible roles",
+      "status": "PASS"
+    },
+    {
+      "name": "partner assistant opens actual reviewed service with explicit consent workflow and no automatic submission",
+      "status": "PASS"
+    },
+    {
+      "name": "space reception shows actual identity and responsible role, responsive directory is readable",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "durationMs": 5568,
+  "scope": "Owned Chrome automated contexts and fictitious sources, not human or production-school acceptance."
+}

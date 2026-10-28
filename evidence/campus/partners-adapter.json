@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "run": "89349820-64ea-477a-8ad4-137966ba0e7a",
+  "checkedAt": "2026-10-23T16:42:17.372Z",
+  "durationMs": 4561,
+  "checks": [
+    {
+      "name": "lost create acknowledgement stays uncertain; lookup recovers one actual external booking",
+      "status": "PASS"
+    },
+    {
+      "name": "external cancellation lost acknowledgement is reconciled to its real cancel receipt exactly once",
+      "status": "PASS"
+    },
+    {
+      "name": "unknown remote outcome remains pending and never blindly resubmits or claims completion",
+      "status": "PASS"
+    },
+    {
+      "name": "busy mutation pool cannot deadlock the adapter worker committing its receipt",
+      "status": "PASS"
+    },
+    {
+      "name": "unconfigured adapter reports unavailable; local cancel has explicit before-dispatch receipt",
+      "status": "PASS"
+    },
+    {
+      "name": "published partner topic deduplicates, hides edited/withdrawn sources and respects unsubscribe",
+      "status": "PASS"
+    },
+    {
+      "name": "changed reviewed source after consent blocks first adapter disclosure",
+      "status": "PASS"
+    },
+    {
+      "name": "expired exact create/edit receipts replay after current ACL; new expired operations refuse",
+      "status": "PASS"
+    },
+    {
+      "name": "organization revocation denies old receipt replay; revoked owner task never dispatches private fields",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Real authenticated Base module + PostgreSQL + loopback HTTP adapter with deliberately lost acknowledgements. Adapter is fictitious, not a real merchant.",
+  "testSchool": "adapter-dd7151a5",
+  "counts": {
+    "createCalls": 3,
+    "cancelCalls": 1
+  },
+  "objects": {
+    "completedTask": "e7482d05-6a4c-47b2-9c56-03ac3d05bd19",
+    "pendingUnknownTask": "60f5fe0b-41f7-4125-a8d5-63115a46836d"
+  }
+}

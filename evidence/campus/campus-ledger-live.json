@@ -1,0 +1,34 @@
+{
+  "scope": "isolated real PostgreSQL/Keycloak/NodeBB/Nakama, fictitious people and policies, not real campus acceptance",
+  "run": "ba350f78",
+  "org": "ledger-ba350f78",
+  "period": "p-ba350f78",
+  "period2": "new-p-ba350f78",
+  "checks": [
+    {
+      "name": "strict schema, unapproved/default rule exclusion, explicit approval and activation",
+      "status": "PASS"
+    },
+    {
+      "name": "native forum publication, ten exact retries, changed input conflict and edit without extra award",
+      "status": "PASS"
+    },
+    {
+      "name": "activity complete source chain and same-transaction award, daily caps across source kinds",
+      "status": "PASS"
+    },
+    {
+      "name": "stable tied rankings, immutable frozen snapshots, changed policy and exact original reversal",
+      "status": "PASS"
+    },
+    {
+      "name": "manual immutable adjustment, exact request replay, reverse once and current membership/organization scope",
+      "status": "PASS"
+    },
+    {
+      "name": "rebuild from immutable ledger restores native Nakama projection and excludes nonforum reconciliation false positives",
+      "status": "PASS"
+    }
+  ],
+  "elapsedMs": 14669
+}

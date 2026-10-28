@@ -1,0 +1,11 @@
+{
+  "kind": "actual process termination of owned restored fixture service",
+  "actualNativeProcessTermination": true,
+  "supervisorStoppedOwnedStack": true,
+  "sourceInstanceUntouched": true,
+  "nativePostIdPreserved": true,
+  "oneSourcePost": true,
+  "oneEvent": true,
+  "oneContribution": true,
+  "status": "PASS"
+}

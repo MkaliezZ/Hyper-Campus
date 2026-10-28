@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "environment": "independent restored six-service clone",
+  "restoredBodyAndPermissions": true,
+  "stableSourceMessageId": "12b2ece3-e3bb-4f0f-9370-507a38ce06e7",
+  "newMessageOnlyInClone": "c21531ed-54ef-4dbe-9d79-6609ed0fa937",
+  "durationMs": 1072
+}

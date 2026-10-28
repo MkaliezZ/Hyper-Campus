@@ -1,0 +1,540 @@
+{
+  "status": "PASS",
+  "kind": "local-warm-read-budget",
+  "startedAt": "2026-10-23T17:52:50.062Z",
+  "completedAt": "2026-10-23T17:52:58.838Z",
+  "durationMs": 8776,
+  "origin": "http://127.0.0.1:5980",
+  "samplesPerEndpoint": 50,
+  "concurrency": 5,
+  "budgetP95Ms": 500,
+  "environment": {
+    "platform": "linux",
+    "release": "6.18.33.2-microsoft-standard-WSL2",
+    "node": "v24.22.1",
+    "cpu": "AMD Ryzen 5 5600 6-Core Processor",
+    "logicalCpus": 12,
+    "ramBytes": 16729649152
+  },
+  "dataScale": {
+    "source": "actual restored PostgreSQL read-only repeatable-read counts before load",
+    "tableCount": 81,
+    "totalRows": 5178,
+    "tables": [
+      {
+        "table": "hd_activities",
+        "rows": 37
+      },
+      {
+        "table": "hd_activity_events",
+        "rows": 143
+      },
+      {
+        "table": "hd_activity_registrations",
+        "rows": 26
+      },
+      {
+        "table": "hd_activity_reminders",
+        "rows": 24
+      },
+      {
+        "table": "hd_activity_submissions",
+        "rows": 10
+      },
+      {
+        "table": "hd_attachments",
+        "rows": 15
+      },
+      {
+        "table": "hd_audit",
+        "rows": 1227
+      },
+      {
+        "table": "hd_auth_flows",
+        "rows": 3
+      },
+      {
+        "table": "hd_avatars",
+        "rows": 1
+      },
+      {
+        "table": "hd_campus_periods",
+        "rows": 7
+      },
+      {
+        "table": "hd_campus_rank_snapshots",
+        "rows": 6
+      },
+      {
+        "table": "hd_campus_rules",
+        "rows": 11
+      },
+      {
+        "table": "hd_chat_blocks",
+        "rows": 0
+      },
+      {
+        "table": "hd_chat_events",
+        "rows": 30
+      },
+      {
+        "table": "hd_chat_messages",
+        "rows": 20
+      },
+      {
+        "table": "hd_chat_operations",
+        "rows": 30
+      },
+      {
+        "table": "hd_chat_reads",
+        "rows": 6
+      },
+      {
+        "table": "hd_chat_reports",
+        "rows": 3
+      },
+      {
+        "table": "hd_community_pages",
+        "rows": 4
+      },
+      {
+        "table": "hd_contact_events",
+        "rows": 24
+      },
+      {
+        "table": "hd_contact_permissions",
+        "rows": 3
+      },
+      {
+        "table": "hd_contact_preferences",
+        "rows": 3
+      },
+      {
+        "table": "hd_contributions",
+        "rows": 52
+      },
+      {
+        "table": "hd_conversations",
+        "rows": 9
+      },
+      {
+        "table": "hd_environment_announcements",
+        "rows": 2
+      },
+      {
+        "table": "hd_environment_events",
+        "rows": 21
+      },
+      {
+        "table": "hd_environment_feedback",
+        "rows": 3
+      },
+      {
+        "table": "hd_environment_places",
+        "rows": 1
+      },
+      {
+        "table": "hd_events",
+        "rows": 60
+      },
+      {
+        "table": "hd_forum_heads",
+        "rows": 20
+      },
+      {
+        "table": "hd_guest_bindings",
+        "rows": 0
+      },
+      {
+        "table": "hd_guest_claims",
+        "rows": 0
+      },
+      {
+        "table": "hd_identities",
+        "rows": 10
+      },
+      {
+        "table": "hd_information_events",
+        "rows": 148
+      },
+      {
+        "table": "hd_information_heads",
+        "rows": 87
+      },
+      {
+        "table": "hd_invitations",
+        "rows": 59
+      },
+      {
+        "table": "hd_m2_avatar_history",
+        "rows": 22
+      },
+      {
+        "table": "hd_m2_avatars",
+        "rows": 8
+      },
+      {
+        "table": "hd_m2_collections",
+        "rows": 6
+      },
+      {
+        "table": "hd_m2_inventory",
+        "rows": 9
+      },
+      {
+        "table": "hd_m2_inventory_events",
+        "rows": 39
+      },
+      {
+        "table": "hd_m2_items",
+        "rows": 17
+      },
+      {
+        "table": "hd_m2_profiles",
+        "rows": 1
+      },
+      {
+        "table": "hd_m5_adapter_operations",
+        "rows": 31
+      },
+      {
+        "table": "hd_m5_entitlements",
+        "rows": 18
+      },
+      {
+        "table": "hd_m5_events",
+        "rows": 340
+      },
+      {
+        "table": "hd_m5_fixture_bookings",
+        "rows": 5
+      },
+      {
+        "table": "hd_m5_metrics",
+        "rows": 66
+      },
+      {
+        "table": "hd_m5_offers",
+        "rows": 18
+      },
+      {
+        "table": "hd_m5_partners",
+        "rows": 24
+      },
+      {
+        "table": "hd_m5_services",
+        "rows": 29
+      },
+      {
+        "table": "hd_m5_staff",
+        "rows": 36
+      },
+      {
+        "table": "hd_m5_tasks",
+        "rows": 35
+      },
+      {
+        "table": "hd_memberships",
+        "rows": 78
+      },
+      {
+        "table": "hd_notification_preferences",
+        "rows": 1
+      },
+      {
+        "table": "hd_notifications",
+        "rows": 489
+      },
+      {
+        "table": "hd_operation_heads",
+        "rows": 5
+      },
+      {
+        "table": "hd_operation_packages",
+        "rows": 11
+      },
+      {
+        "table": "hd_operation_runs",
+        "rows": 4
+      },
+      {
+        "table": "hd_org_members",
+        "rows": 69
+      },
+      {
+        "table": "hd_organizations",
+        "rows": 56
+      },
+      {
+        "table": "hd_outbox",
+        "rows": 56
+      },
+      {
+        "table": "hd_personal_badges",
+        "rows": 12
+      },
+      {
+        "table": "hd_personal_preferences",
+        "rows": 1
+      },
+      {
+        "table": "hd_personal_work_history",
+        "rows": 14
+      },
+      {
+        "table": "hd_personal_works",
+        "rows": 5
+      },
+      {
+        "table": "hd_receipts",
+        "rows": 1045
+      },
+      {
+        "table": "hd_reconciliations",
+        "rows": 62
+      },
+      {
+        "table": "hd_reward_activity_gates",
+        "rows": 3
+      },
+      {
+        "table": "hd_reward_claims",
+        "rows": 25
+      },
+      {
+        "table": "hd_reward_events",
+        "rows": 164
+      },
+      {
+        "table": "hd_rewards",
+        "rows": 33
+      },
+      {
+        "table": "hd_runtime_state",
+        "rows": 1
+      },
+      {
+        "table": "hd_scheduled_jobs",
+        "rows": 28
+      },
+      {
+        "table": "hd_schema_migrations",
+        "rows": 18
+      },
+      {
+        "table": "hd_schools",
+        "rows": 9
+      },
+      {
+        "table": "hd_scores",
+        "rows": 16
+      },
+      {
+        "table": "hd_sessions",
+        "rows": 99
+      },
+      {
+        "table": "hd_subscriptions",
+        "rows": 9
+      },
+      {
+        "table": "hd_tickets",
+        "rows": 0
+      },
+      {
+        "table": "hd_users",
+        "rows": 56
+      }
+    ],
+    "schools": [
+      {
+        "school_id": "adapter-05416572",
+        "memberships": 3,
+        "active_memberships": 3
+      },
+      {
+        "school_id": "adapter-7c69e9d0",
+        "memberships": 3,
+        "active_memberships": 3
+      },
+      {
+        "school_id": "adapter-c80b8c00",
+        "memberships": 3,
+        "active_memberships": 3
+      },
+      {
+        "school_id": "adapter-da9dfdeb",
+        "memberships": 3,
+        "active_memberships": 3
+      },
+      {
+        "school_id": "adapter-dd7151a5",
+        "memberships": 3,
+        "active_memberships": 3
+      },
+      {
+        "school_id": "adapter-e8940cde",
+        "memberships": 3,
+        "active_memberships": 3
+      },
+      {
+        "school_id": "business-notices-98a99293",
+        "memberships": 3,
+        "active_memberships": 3
+      },
+      {
+        "school_id": "north",
+        "memberships": 53,
+        "active_memberships": 53
+      },
+      {
+        "school_id": "south",
+        "memberships": 4,
+        "active_memberships": 4
+      }
+    ]
+  },
+  "measurements": [
+    {
+      "schoolId": "north",
+      "path": "/m2/schools/north/avatar",
+      "samples": 50,
+      "concurrency": 5,
+      "warmups": 1,
+      "p50Ms": 28.467640999999958,
+      "p95Ms": 40.27673400000003,
+      "maxMs": 44.30799700000006,
+      "minResponseBytes": 1446,
+      "maxResponseBytes": 1446,
+      "budgetP95Ms": 500,
+      "status": "PASS"
+    },
+    {
+      "schoolId": "north",
+      "path": "/community/schools/north/categories",
+      "samples": 50,
+      "concurrency": 5,
+      "warmups": 1,
+      "p50Ms": 73.55253100000004,
+      "p95Ms": 98.9322000000002,
+      "maxMs": 100.06088999999997,
+      "minResponseBytes": 323,
+      "maxResponseBytes": 323,
+      "budgetP95Ms": 500,
+      "status": "PASS"
+    },
+    {
+      "schoolId": "north",
+      "path": "/activities/schools/north/items",
+      "samples": 50,
+      "concurrency": 5,
+      "warmups": 1,
+      "p50Ms": 339.43241300000045,
+      "p95Ms": 431.77727300000015,
+      "maxMs": 436.2998319999997,
+      "minResponseBytes": 11618,
+      "maxResponseBytes": 11618,
+      "budgetP95Ms": 500,
+      "status": "PASS"
+    },
+    {
+      "schoolId": "north",
+      "path": "/environment/schools/north/places",
+      "samples": 50,
+      "concurrency": 5,
+      "warmups": 1,
+      "p50Ms": 97.73421099999996,
+      "p95Ms": 129.67612100000042,
+      "maxMs": 154.05039899999974,
+      "minResponseBytes": 1060,
+      "maxResponseBytes": 1060,
+      "budgetP95Ms": 500,
+      "status": "PASS"
+    },
+    {
+      "schoolId": "north",
+      "path": "/agent-directory/schools/north",
+      "samples": 50,
+      "concurrency": 5,
+      "warmups": 1,
+      "p50Ms": 105.83003800000006,
+      "p95Ms": 180.67515699999967,
+      "maxMs": 182.98453599999993,
+      "minResponseBytes": 21958,
+      "maxResponseBytes": 21958,
+      "budgetP95Ms": 500,
+      "status": "PASS"
+    },
+    {
+      "schoolId": "south",
+      "path": "/m2/schools/south/avatar",
+      "samples": 50,
+      "concurrency": 5,
+      "warmups": 1,
+      "p50Ms": 22.77349299999969,
+      "p95Ms": 42.338314999999966,
+      "maxMs": 46.96067299999959,
+      "minResponseBytes": 1446,
+      "maxResponseBytes": 1446,
+      "budgetP95Ms": 500,
+      "status": "PASS"
+    },
+    {
+      "schoolId": "south",
+      "path": "/community/schools/south/categories",
+      "samples": 50,
+      "concurrency": 5,
+      "warmups": 1,
+      "p50Ms": 44.13739900000019,
+      "p95Ms": 50.52494000000115,
+      "maxMs": 62.33223300000009,
+      "minResponseBytes": 12,
+      "maxResponseBytes": 12,
+      "budgetP95Ms": 500,
+      "status": "PASS"
+    },
+    {
+      "schoolId": "south",
+      "path": "/activities/schools/south/items",
+      "samples": 50,
+      "concurrency": 5,
+      "warmups": 1,
+      "p50Ms": 20.910109999998895,
+      "p95Ms": 31.558713000000353,
+      "maxMs": 37.335760000001756,
+      "minResponseBytes": 12,
+      "maxResponseBytes": 12,
+      "budgetP95Ms": 500,
+      "status": "PASS"
+    },
+    {
+      "schoolId": "south",
+      "path": "/environment/schools/south/places",
+      "samples": 50,
+      "concurrency": 5,
+      "warmups": 1,
+      "p50Ms": 21.765402000000904,
+      "p95Ms": 33.68119400000069,
+      "maxMs": 40.17523500000061,
+      "minResponseBytes": 776,
+      "maxResponseBytes": 776,
+      "budgetP95Ms": 500,
+      "status": "PASS"
+    },
+    {
+      "schoolId": "south",
+      "path": "/agent-directory/schools/south",
+      "samples": 50,
+      "concurrency": 5,
+      "warmups": 1,
+      "p50Ms": 21.749501999998756,
+      "p95Ms": 35.69567499999903,
+      "maxMs": 37.51505899999938,
+      "minResponseBytes": 1451,
+      "maxResponseBytes": 1451,
+      "budgetP95Ms": 500,
+      "status": "PASS"
+    }
+  ],
+  "limits": "Two synthetic schools in a restored local Ubuntu namespace, warm permitted JSON reads. Not cold start, model generation, GPU, internet latency, thousands of users or target-server capacity."
+}

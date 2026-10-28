@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "databases": 7,
+  "checks": [
+    {
+      "name": "every source database table count and row hash remains identical after clone-only restore tests",
+      "status": "PASS"
+    }
+  ]
+}

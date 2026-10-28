@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-23T17:41:49.902Z",
+  "kind": "real-ONNX-PostgreSQL-pgvector-Hermes-A2A",
+  "database": "Native PostgreSQL TCP + pgvector",
+  "embedding": "BAAI/bge-small-zh-v1.5 ONNX CPU 512D",
+  "model": "DeepSeek Flash via local Hermes",
+  "imported": {
+    "chunks": 2,
+    "excluded": 1,
+    "documents": 2,
+    "reused": true
+  },
+  "topHit": {
+    "documentId": "library",
+    "score": 0.5595518517360646
+  },
+  "answer": "根据已发布的《虚拟校园图书借阅规则》，学生借阅图书须出示有效的校园卡；每次最多借四册，借期为二十一天。逾期归还的规则由学校另行发布，目前资料中尚未提供。",
+  "generalAnswer": "开源软件是指源代码公开、允许任何人查看、使用、修改并按许可证条款再分发的软件。",
+  "sources": [
+    {
+      "id": "kb:library:0-623d7d42",
+      "title": "虚拟校园图书借阅规则",
+      "body": "这是原创虚拟校园示例。学生借阅图书须出示有效校园卡；每次最多借四册，借期二十一天。逾期归还规则由学校另行发布。",
+      "revision": 1,
+      "sceneId": null,
+      "entityId": null,
+      "documentId": "library",
+      "sourceLabel": "虚拟学生手册 / 图书借阅"
+    }
+  ],
+  "checks": {
+    "realEmbeddings": true,
+    "realSQLVectorQuery": true,
+    "persistentDatabase": true,
+    "unpublishedExcluded": true,
+    "citedOwnImportedDocument": true,
+    "duplicateNoSecondModelCall": true
+  },
+  "limits": [
+    "Original fictional corpus; not real school verification",
+    "Dedicated test database; target production server not tested"
+  ]
+}

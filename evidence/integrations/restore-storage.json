@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "fixtureOnly": true,
+  "sevenDatabasesRestored": true,
+  "compared": [
+    {
+      "table": "hd_agent_delegations",
+      "rows": 5,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_knowledge_snapshots",
+      "rows": 4,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_index_sources",
+      "rows": 3,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_m5_tasks",
+      "rows": 1,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_m2_avatars",
+      "rows": 0,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_m2_inventory",
+      "rows": 0,
+      "sameRowHash": true
+    },
+    {
+      "table": "hdbase_kb.chunks",
+      "rows": 1,
+      "sameRowHash": true
+    },
+    {
+      "table": "hdbase_forum.heads",
+      "rows": 1,
+      "sameRowHash": true
+    },
+    {
+      "table": "hdbase_forum.revisions",
+      "rows": 2,
+      "sameRowHash": true
+    }
+  ],
+  "sourceStopped": true,
+  "originalRuntimePreserved": true
+}

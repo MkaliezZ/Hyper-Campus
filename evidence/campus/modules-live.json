@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "actual HTTP blocks disabled new writes across four Base extensions",
+      "status": "PASS"
+    },
+    {
+      "name": "identity, saved avatar, inventory and contribution history remain readable with current ACL",
+      "status": "PASS"
+    }
+  ],
+  "scope": "platform HTTP router against synthetic campus clone; no second world runtime is acquired; scene behavior is outside this test"
+}

@@ -1,0 +1,9 @@
+{
+  "kind": "signed legacy cookie proof plus verified OIDC account",
+  "forgedCookieDenied": true,
+  "oneUseClaim": true,
+  "otherOwnerDenied": true,
+  "originalTaskIdPreserved": true,
+  "duplicateReceiptPreserved": true,
+  "status": "PASS"
+}

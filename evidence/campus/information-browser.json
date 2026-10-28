@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "subscribe publish fetch read and reload via two actual browser accounts",
+      "status": "PASS"
+    },
+    {
+      "name": "withdrawal removes previously read subscription notice on next read",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile no overflow and no browser exceptions",
+      "status": "PASS"
+    }
+  ],
+  "automated": true,
+  "physicalDevices": false
+}

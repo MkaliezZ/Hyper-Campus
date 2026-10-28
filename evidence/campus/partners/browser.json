@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "application, owner review and separately scoped redemption staff",
+      "status": "PASS"
+    },
+    {
+      "name": "maintainer service and offer authoring, owner review, current public directory",
+      "status": "PASS"
+    },
+    {
+      "name": "private proposal then exact recipient/field consent, original-task reconciliation and cancellation receipt",
+      "status": "PASS"
+    },
+    {
+      "name": "terms-confirmed own benefit, private voucher and separately authorized one-time redemption",
+      "status": "PASS"
+    },
+    {
+      "name": "own-partner aggregate metrics and revoked redemption permission without widening scope",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile layout, school switch and no browser exceptions",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "durationMs": 9337,
+  "scope": "Automated owned Chrome; three independent contexts on one Windows host; fictitious school/partner data and local-fixture adapter. Not actual school, physical multi-device, or live merchant acceptance."
+}

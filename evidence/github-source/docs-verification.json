@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checkedAt": "2026-10-28T12:45:24.034Z",
+  "campusVersion": "0.8.3",
+  "runtimeBaseline": "0.8.2",
+  "manual": "DEVELOPMENT-MANUAL.md",
+  "documents": 62,
+  "localLinks": 168,
+  "historicalDocuments": 11,
+  "externalLinksFetched": false,
+  "runtimeTestsPerformed": false,
+  "errors": []
+}

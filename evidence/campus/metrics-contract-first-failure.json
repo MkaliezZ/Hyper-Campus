@@ -1,0 +1,355 @@
+{
+  "status": "FAIL",
+  "startedAt": "2026-10-23T17:52:35.197Z",
+  "completedAt": "2026-10-23T17:52:35.643Z",
+  "durationMs": 446,
+  "origin": "http://127.0.0.1:5980",
+  "samplesPerEndpoint": 50,
+  "concurrency": 5,
+  "budgetP95Ms": 500,
+  "dataScale": {
+    "tables": [
+      {
+        "table": "hd_activities",
+        "rows": 37
+      },
+      {
+        "table": "hd_activity_events",
+        "rows": 143
+      },
+      {
+        "table": "hd_activity_registrations",
+        "rows": 26
+      },
+      {
+        "table": "hd_activity_reminders",
+        "rows": 24
+      },
+      {
+        "table": "hd_activity_submissions",
+        "rows": 10
+      },
+      {
+        "table": "hd_attachments",
+        "rows": 15
+      },
+      {
+        "table": "hd_audit",
+        "rows": 1227
+      },
+      {
+        "table": "hd_auth_flows",
+        "rows": 3
+      },
+      {
+        "table": "hd_avatars",
+        "rows": 1
+      },
+      {
+        "table": "hd_campus_periods",
+        "rows": 7
+      },
+      {
+        "table": "hd_campus_rank_snapshots",
+        "rows": 6
+      },
+      {
+        "table": "hd_campus_rules",
+        "rows": 11
+      },
+      {
+        "table": "hd_chat_blocks",
+        "rows": 0
+      },
+      {
+        "table": "hd_chat_events",
+        "rows": 30
+      },
+      {
+        "table": "hd_chat_messages",
+        "rows": 20
+      },
+      {
+        "table": "hd_chat_operations",
+        "rows": 30
+      },
+      {
+        "table": "hd_chat_reads",
+        "rows": 6
+      },
+      {
+        "table": "hd_chat_reports",
+        "rows": 3
+      },
+      {
+        "table": "hd_community_pages",
+        "rows": 4
+      },
+      {
+        "table": "hd_contact_events",
+        "rows": 24
+      },
+      {
+        "table": "hd_contact_permissions",
+        "rows": 3
+      },
+      {
+        "table": "hd_contact_preferences",
+        "rows": 3
+      },
+      {
+        "table": "hd_contributions",
+        "rows": 52
+      },
+      {
+        "table": "hd_conversations",
+        "rows": 9
+      },
+      {
+        "table": "hd_environment_announcements",
+        "rows": 2
+      },
+      {
+        "table": "hd_environment_events",
+        "rows": 21
+      },
+      {
+        "table": "hd_environment_feedback",
+        "rows": 3
+      },
+      {
+        "table": "hd_environment_places",
+        "rows": 1
+      },
+      {
+        "table": "hd_events",
+        "rows": 60
+      },
+      {
+        "table": "hd_forum_heads",
+        "rows": 20
+      },
+      {
+        "table": "hd_guest_bindings",
+        "rows": 0
+      },
+      {
+        "table": "hd_guest_claims",
+        "rows": 0
+      },
+      {
+        "table": "hd_identities",
+        "rows": 10
+      },
+      {
+        "table": "hd_information_events",
+        "rows": 148
+      },
+      {
+        "table": "hd_information_heads",
+        "rows": 87
+      },
+      {
+        "table": "hd_invitations",
+        "rows": 59
+      },
+      {
+        "table": "hd_m2_avatar_history",
+        "rows": 22
+      },
+      {
+        "table": "hd_m2_avatars",
+        "rows": 8
+      },
+      {
+        "table": "hd_m2_collections",
+        "rows": 6
+      },
+      {
+        "table": "hd_m2_inventory",
+        "rows": 9
+      },
+      {
+        "table": "hd_m2_inventory_events",
+        "rows": 39
+      },
+      {
+        "table": "hd_m2_items",
+        "rows": 17
+      },
+      {
+        "table": "hd_m2_profiles",
+        "rows": 1
+      },
+      {
+        "table": "hd_m5_adapter_operations",
+        "rows": 31
+      },
+      {
+        "table": "hd_m5_entitlements",
+        "rows": 18
+      },
+      {
+        "table": "hd_m5_events",
+        "rows": 340
+      },
+      {
+        "table": "hd_m5_fixture_bookings",
+        "rows": 5
+      },
+      {
+        "table": "hd_m5_metrics",
+        "rows": 66
+      },
+      {
+        "table": "hd_m5_offers",
+        "rows": 18
+      },
+      {
+        "table": "hd_m5_partners",
+        "rows": 24
+      },
+      {
+        "table": "hd_m5_services",
+        "rows": 29
+      },
+      {
+        "table": "hd_m5_staff",
+        "rows": 36
+      },
+      {
+        "table": "hd_m5_tasks",
+        "rows": 35
+      },
+      {
+        "table": "hd_memberships",
+        "rows": 78
+      },
+      {
+        "table": "hd_notification_preferences",
+        "rows": 1
+      },
+      {
+        "table": "hd_notifications",
+        "rows": 489
+      },
+      {
+        "table": "hd_operation_heads",
+        "rows": 5
+      },
+      {
+        "table": "hd_operation_packages",
+        "rows": 11
+      },
+      {
+        "table": "hd_operation_runs",
+        "rows": 4
+      },
+      {
+        "table": "hd_org_members",
+        "rows": 69
+      },
+      {
+        "table": "hd_organizations",
+        "rows": 56
+      },
+      {
+        "table": "hd_outbox",
+        "rows": 56
+      },
+      {
+        "table": "hd_personal_badges",
+        "rows": 12
+      },
+      {
+        "table": "hd_personal_preferences",
+        "rows": 1
+      },
+      {
+        "table": "hd_personal_work_history",
+        "rows": 14
+      },
+      {
+        "table": "hd_personal_works",
+        "rows": 5
+      },
+      {
+        "table": "hd_receipts",
+        "rows": 1045
+      },
+      {
+        "table": "hd_reconciliations",
+        "rows": 62
+      },
+      {
+        "table": "hd_reward_activity_gates",
+        "rows": 3
+      },
+      {
+        "table": "hd_reward_claims",
+        "rows": 25
+      },
+      {
+        "table": "hd_reward_events",
+        "rows": 164
+      },
+      {
+        "table": "hd_rewards",
+        "rows": 33
+      },
+      {
+        "table": "hd_runtime_state",
+        "rows": 1
+      },
+      {
+        "table": "hd_scheduled_jobs",
+        "rows": 28
+      },
+      {
+        "table": "hd_schema_migrations",
+        "rows": 18
+      },
+      {
+        "table": "hd_schools",
+        "rows": 9
+      },
+      {
+        "table": "hd_scores",
+        "rows": 16
+      },
+      {
+        "table": "hd_sessions",
+        "rows": 99
+      },
+      {
+        "table": "hd_subscriptions",
+        "rows": 9
+      },
+      {
+        "table": "hd_tickets",
+        "rows": 0
+      },
+      {
+        "table": "hd_users",
+        "rows": 56
+      }
+    ]
+  },
+  "measurements": [
+    {
+      "schoolId": "north",
+      "path": "/m2/schools/north/avatar",
+      "samples": 50,
+      "concurrency": 5,
+      "warmups": 1,
+      "p50Ms": 28.832236999999964,
+      "p95Ms": 48.46515899999997,
+      "maxMs": 50.240943000000016,
+      "minResponseBytes": 1446,
+      "maxResponseBytes": 1446,
+      "budgetP95Ms": 500,
+      "status": "PASS"
+    }
+  ],
+  "error": "The expression evaluated to a falsy value:\n\n  assert.ok(Array.isArray(d.categories))\n"
+}

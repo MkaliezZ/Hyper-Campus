@@ -1,0 +1,21 @@
+{
+  "kind": "automated browser + real Keycloak + loopback test SMTP",
+  "externalMailDelivery": false,
+  "humanAcceptance": false,
+  "elapsedMs": 4226,
+  "results": [
+    {
+      "name": "real browser registration requires email verification before Base access",
+      "status": "PASS"
+    },
+    {
+      "name": "verified account joins exact school by invitation through browser and cannot enter another school",
+      "status": "PASS"
+    },
+    {
+      "name": "real password recovery via SMTP action token changes credentials and retains stable Base ID",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

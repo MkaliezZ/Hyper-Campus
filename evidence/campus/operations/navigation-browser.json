@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "actual operations activity link opens the exact authorized organization draft",
+      "status": "PASS"
+    },
+    {
+      "name": "cross-school deep link cannot grant access",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "runId": "abdfc1a6-3398-4599-914a-3a8571879ea5"
+}

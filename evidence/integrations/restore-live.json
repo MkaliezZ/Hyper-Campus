@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "fixtureOnly": true,
+  "checks": [
+    "relocated OIDC preserves fixture identity and school access",
+    "historical/current reviewed forum vectors remain queryable",
+    "organization denial still enforced",
+    "public reception uses restored current source revision",
+    "private forum excluded from reception"
+  ],
+  "scope": "Independent restored namespace on one host; no production cutover."
+}

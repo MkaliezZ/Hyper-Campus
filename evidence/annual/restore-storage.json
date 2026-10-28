@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "fixtureOnly": true,
+  "compared": [
+    {
+      "table": "hd_annual_packages",
+      "rows": 7,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_annual_heads",
+      "rows": 4,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_annual_tasks",
+      "rows": 8,
+      "sameRowHash": true
+    },
+    {
+      "table": "hd_annual_personal",
+      "rows": 6,
+      "sameRowHash": true
+    }
+  ],
+  "sevenDatabaseBackupVerified": true,
+  "sourcePreserved": true
+}

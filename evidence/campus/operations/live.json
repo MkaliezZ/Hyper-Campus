@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "current scope owners only, strict package preview, immutable import and version diff",
+      "status": "PASS"
+    },
+    {
+      "name": "explicit activation CAS, real approved rule and published reward scope bindings",
+      "status": "PASS"
+    },
+    {
+      "name": "real draft creation is atomic, request replay cannot duplicate activities and no implicit publication or awards",
+      "status": "PASS"
+    },
+    {
+      "name": "existing activity approval and participation feed factual review, version updates leave created activities intact",
+      "status": "PASS"
+    },
+    {
+      "name": "handoff requires a real current owner, CAS and audit preserve source scope without granting permissions",
+      "status": "PASS"
+    }
+  ],
+  "run": "12a6a809",
+  "orgId": "ops-12a6a809",
+  "runId": "ab472422-fe52-41bf-b0f1-0392c81b06a2",
+  "activityIds": [
+    "5f22f5a3-4d72-47c5-8cb6-6b7737f47c3e",
+    "144ec850-a882-489c-b23e-f2da08ae91db",
+    "2d64cf89-59fa-4f8b-8586-0cacce823426",
+    "850bbd1d-1524-4ccf-a698-46aaece99e8c"
+  ],
+  "ruleVersion": "ops-rules-12a6a809",
+  "rewardId": "13db2dff-fdfc-4e80-bdac-9b4d1549d6f0",
+  "environment": "isolated Ubuntu services; fictitious users and examples"
+}

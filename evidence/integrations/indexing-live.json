@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "fixtureOnly": true,
+  "checks": [
+    {
+      "name": "reviewed school documents enqueue pg-boss jobs; unpublished inputs never persist",
+      "status": "PASS"
+    },
+    {
+      "name": "withdrawal gates public RAG and cached A2A before asynchronous physical deletion",
+      "status": "PASS"
+    },
+    {
+      "name": "native reviewed forum publication automatically gains a private scope index",
+      "status": "PASS"
+    },
+    {
+      "name": "unreviewed edit excluded; reviewed historical/current versions retained separately",
+      "status": "PASS"
+    },
+    {
+      "name": "current org revocation and withdrawal invalidate old history without waiting for queue",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Real isolated PostgreSQL/pgvector, native NodeBB and pg-boss; not target-server or real-school acceptance."
+}

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "fixtureOnly": true,
+  "checks": [
+    {
+      "name": "school authority, versioned review/import/activation and unchanged original source",
+      "status": "PASS"
+    },
+    {
+      "name": "annual plan creates only assigned work, not activities, publication or score",
+      "status": "PASS"
+    },
+    {
+      "name": "verified actual date and explicit confirmation create one native activity draft",
+      "status": "PASS"
+    },
+    {
+      "name": "personal opt-in is private, chain-deduplicated, persistent and independent from ranking",
+      "status": "PASS"
+    },
+    {
+      "name": "new versions preserve original tasks and require explicit source review before new activity",
+      "status": "PASS"
+    },
+    {
+      "name": "removed reference entries can be completed privately without reactivating obsolete advice",
+      "status": "PASS"
+    },
+    {
+      "name": "organization revocation blocks current reads and cached personal writes",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Real isolated PostgreSQL, OIDC, native activity authority. No school approval, family contact, financial transaction or actual-user acceptance."
+}

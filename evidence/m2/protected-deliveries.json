@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "sha256": "aa4f6281ada17e246f1b6a2939133ea57d2b637ae99889152b79e5ddab3b0f7f",
+      "unchanged": true,
+      "path": "outputs/Hyper-Dimension-Base/v0.2.1/Hyper-Dimension-Base-v0.2.1-Complete.zip"
+    },
+    {
+      "sha256": "f24fcf0eec77259641ea5761182cca31504a590bfabd099e4f9812ba205e2216",
+      "unchanged": true,
+      "path": "outputs/Hyper-Dimension-Base/v0.2.0/Building-Plan14-Private-Project-v0.2.0.zip"
+    },
+    {
+      "sha256": "e131f85b2bd486ed6338ac2cd2c71cff32a6ebec6c7fb7d7951dbbc8790ff814",
+      "unchanged": true,
+      "path": "outputs/Hyper-Dimension-Base/M0/2026-10-23/Hyper-Dimension-Base-M0-v0.1.0.zip"
+    },
+    {
+      "sha256": "4964c050748d081ae48b38d76be929c3f64ab8d1a9ce213dc350440e9a3e7eac",
+      "unchanged": true,
+      "path": "outputs/Hyper-Dimension-Base/M1/2026-10-23/Hyper-Dimension-Base-M1-v0.2.0.zip"
+    },
+    {
+      "sha256": "e69ffae06231aa7b4a7d184e33b094b95e1b3bbe5d423e852114356f4634b277",
+      "unchanged": true,
+      "path": "F:\\Codex Workspace\\2026-09-30\\new-chat\\outputs\\Hyper-Dimension-Base\\M1\\2026-10-23-social\\Hyper-Dimension-Base-M1-v0.3.0.zip"
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "two clean browser contexts: OIDC login, contact selection, live private send and read receipts",
+      "status": "PASS"
+    },
+    {
+      "name": "browser editor: private draft review replaces native original with same ID",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile layout remains within viewport; no uncaught browser errors",
+      "status": "PASS"
+    }
+  ],
+  "pageErrors": [],
+  "durationMs": 6817,
+  "environment": "owned fresh Chrome contexts; automated single-host browser acceptance"
+}

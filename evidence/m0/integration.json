@@ -1,0 +1,53 @@
+{
+  "kind": "automated-real-services",
+  "environment": "Ubuntu WSL on one host; not a human or physical multi-device test",
+  "startedAt": "2026-10-23T11:37:57.368Z",
+  "elapsedMs": 2071,
+  "results": [
+    {
+      "name": "real Keycloak login and Base school membership",
+      "status": "PASS",
+      "ms": 1177
+    },
+    {
+      "name": "stable Base/Nakama/NodeBB mappings; forged native custom login denied",
+      "status": "PASS",
+      "ms": 105
+    },
+    {
+      "name": "avatar edit -> deterministic GLB -> transaction -> retry/conflict/other owner",
+      "status": "PASS",
+      "ms": 141
+    },
+    {
+      "name": "OIDC identity retains A2A task ownership and idempotent effects",
+      "status": "PASS",
+      "ms": 40
+    },
+    {
+      "name": "forum SSO and source pending state; student cannot moderate; pending is private",
+      "status": "PASS",
+      "ms": 199
+    },
+    {
+      "name": "real NodeBB approval -> PG ledger -> authoritative Nakama ranking; 10 deliveries once",
+      "status": "PASS",
+      "ms": 257
+    },
+    {
+      "name": "withdrawal reverses accepted contribution; replay remains one reversal",
+      "status": "PASS",
+      "ms": 80
+    },
+    {
+      "name": "failed delivery remains in outbox; native projection rebuilt from PG ledger",
+      "status": "PASS",
+      "ms": 49
+    },
+    {
+      "name": "membership revocation rejects old Base, native Nakama and native NodeBB sessions",
+      "status": "PASS",
+      "ms": 20
+    }
+  ]
+}

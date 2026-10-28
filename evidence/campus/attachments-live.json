@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "content sniff, explicit type and file size validation",
+      "status": "PASS"
+    },
+    {
+      "name": "controlled upload is exact-once, private and downloadable only with current authorization",
+      "status": "PASS"
+    },
+    {
+      "name": "withdrawal stops download and subsequent verification while preserving audit",
+      "status": "PASS"
+    },
+    {
+      "name": "expiry stops reads and removes only expired unheld bytes",
+      "status": "PASS"
+    }
+  ],
+  "scope": "isolated fixture; all uploaded content is synthetic"
+}

@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-24T09:51:17.457Z",
+  "status": "PASS",
+  "node": "v24.19.0",
+  "commands": [
+    {
+      "command": "node tools/base.mjs doctor",
+      "exitCode": 0
+    },
+    {
+      "command": "node tools/base.mjs build",
+      "exitCode": 0
+    },
+    {
+      "command": "node tools/base.mjs verify",
+      "exitCode": 0
+    },
+    {
+      "command": "node --test tests/*.test.mjs",
+      "exitCode": 0,
+      "passed": 44,
+      "failed": 0
+    },
+    {
+      "command": "git diff --check",
+      "exitCode": 0
+    }
+  ],
+  "realHermesBrowser": {
+    "groups": 9,
+    "calls": 8,
+    "report": "hermes-sessions-live.json"
+  },
+  "notes": "Existing Ubuntu/Keycloak/7-database restoration evidence is retained with its original version; no additional full-stack services were launched."
+}
